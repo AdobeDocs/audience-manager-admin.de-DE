@@ -7,8 +7,8 @@ uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 75%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Format
 
 >[!IMPORTANT]
 >
-> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager sind, navigieren Sie zur [Übersicht über das Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager sind, navigieren Sie zur [Übersicht des Audience Manager-Handbuchs](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -42,7 +42,7 @@ Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Format
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobe Social Community</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe-Schulungen und -Tutorials</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> Produktdokumentation – Startseite</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/de/support/experience-cloud.html" format="https" scope="external"> Produktdokumentation – Startseite</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -7,16 +7,16 @@ uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
 source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
 # HTTP-Formatmakros {#http-format-macros}
 
-Listet die Makros auf, mit denen Sie [!DNL HTTP]-Datendateien erstellen können. [!DNL HTTP] sendet Daten in einem  [!DNL JSON] Format.
+Listet die Makros auf, mit denen Sie [!DNL HTTP]-Datendateien erstellen können. [!DNL HTTP] sendet Daten im Format [!DNL JSON].
 
-Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie unter [Beispiele für HTTP-Formatmakros](../formats/web-format-examples.md) .
+Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie in den [Beispiele für HTTP-Formatmakros](../formats/web-format-examples.md) .
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -30,12 +30,12 @@ Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie u
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager- </span> ID. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Eindeutige Datenpartner-Benutzer-ID. Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn dessen ID bereits mit einer Geräte-ID des Typs <span class="keyword"> synchronisiert wurde.</span> </p> </td> 
+   <td colname="col3"> <p>Eindeutige Datenpartner-Benutzer-ID. Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn seine ID bereits mit einer Geräte-ID des Typs <span class="keyword"> Audience Manager </span> synchronisiert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie u
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix-UTC-Zeitstempel. Ein interner Zeitstempel, der den Zeitpunkt darstellt, zu dem AAM benachrichtigt wurde, das <span class="wintitle"> S2S </span>-Ziel bei unseren Partnern zu veröffentlichen. </p> </td> 
+   <td colname="col3"> <p>Unix-UTC-Zeitstempel. Ein interner Zeitstempel, der den Zeitpunkt darstellt, zu dem AAM benachrichtigt wurde, das Ziel <span class="wintitle"> S2S </span> bei unseren Partnern zu veröffentlichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -60,7 +60,7 @@ Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie u
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, das den alten Namen des Experience Cloud darstellt.) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, das den alten Namen der Experience Cloud darstellt.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -90,7 +90,7 @@ Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie u
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Die <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager-DCS-Region </a>, aus der die Aktivität stammt.</p> </td> 
+   <td colname="col3"> <p>Der <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS-Bereich </a>, aus dem die Aktivität stammt.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Eine Liste und Beispiele für häufig verwendete Makrokombinationen finden Sie u
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Eine Liste der <span class="keyword"> Audience Manager </span> Benutzer-IDs. Sie können auch bestimmte Felder zurückgeben, die Folgendes enthalten: </p> 
+   <td colname="col3"> <p>Eine Liste der Benutzer-IDs vom Typ <span class="keyword"> Audience Manager </span>. Sie können auch bestimmte Felder zurückgeben, die Folgendes enthalten: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 

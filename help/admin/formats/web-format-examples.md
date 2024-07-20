@@ -1,20 +1,20 @@
 ---
 description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
-seo-description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
-seo-title: Beispiele für HTTP-Formatmakros
+seo-description: Examples of some commonly used HTTP macro combinations.
+seo-title: HTTP Format Macro Examples
 title: Beispiele für HTTP-Formatmakros
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 15%
+source-wordcount: '66'
+ht-degree: 0%
 
 ---
 
 # Beispiele für HTTP-Formatmakros {#http-format-macro-examples}
 
-Beispiele für häufig verwendete Makro-Kombinationen [!DNL HTTP].
+Beispiele für häufig verwendete [!DNL HTTP] -Makrokombinationen.
 
 Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros](../formats/web-formats.md) .
 
