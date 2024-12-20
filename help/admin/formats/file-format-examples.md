@@ -1,8 +1,8 @@
 ---
-description: Beispiele für die Verwendung von Makros zur Erstellung ausgehender FTP-Dateivorlagen.
+description: Beispiele für die Verwendung von Makros zum Erstellen ausgehender FTP-Dateivorlagen.
 seo-description: Examples of how macros are used to create outbound, FTP file templates.
 seo-title: File Format Macro Examples
-title: Beispiele für Dateiformatmakros
+title: Beispiele für Dateiformat-Makros
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Beispiele für Dateiformatmakros {#file-format-macro-examples}
+# Beispiele für Dateiformat-Makros {#file-format-macro-examples}
 
-Beispiele für die Verwendung von Makros zur Erstellung ausgehender [!DNL FTP]-Dateivorlagen.
+Beispiele für die Verwendung von Makros zum Erstellen ausgehender [!DNL FTP]-Dateivorlagen.
 
 >[!NOTE]
 >
->In den Tabellen gibt der Typ **fett** jedes Makro mit seiner zugehörigen Ausgabe an. Für die Formatbeispiele wurden die Symbole &lt; > hinzugefügt, um die einzelnen Makros visuell voneinander zu trennen.
+>In den Tabellen identifiziert **boldFace**-Typ jedes Makro mit der zugehörigen Ausgabe. Für die Formatbeispiele wurden die &lt; > -Symbole hinzugefügt, um die einzelnen Makros visuell voneinander zu trennen.
 
-## Häufige Makros {#common-macros}
+## Allgemeine Makros {#common-macros}
 
-Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
+Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -48,7 +48,7 @@ Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Li
    <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Format: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Ausgabe: 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Full: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Vollständig: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Inkrementell: <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -68,9 +68,9 @@ Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Li
  </tbody> 
 </table>
 
-## Kopfzeilenfeldmakros {#header-field-macros}
+## Header-Feldmakros {#header-field-macros}
 
-Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -82,14 +82,14 @@ Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code>888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td>
+   <td colname="col2"> <p>Format: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code>888 full.sync </code> </p> <p>In der Ausgabe trennt das nicht druckbare Tabulatorzeichen jedes Element. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Datenzeilenmakros {#data-row-macros}
+## Datenzeilen-Makros {#data-row-macros}
 
-Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -128,7 +128,7 @@ Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td> 
+   <td colname="col2"> <p>Format: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe trennt das nicht druckbare Tabulatorzeichen jedes Element. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 

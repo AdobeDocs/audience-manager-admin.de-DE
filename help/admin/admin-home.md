@@ -18,7 +18,7 @@ Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Format
 
 >[!IMPORTANT]
 >
-> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager sind, navigieren Sie zur [Übersicht des Audience Manager-Handbuchs](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind, navigieren Sie bitte zur Übersicht über das [Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 

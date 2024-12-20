@@ -1,8 +1,8 @@
 ---
-description: Verwenden Sie die Auditprotokollierung als ersten Schritt zum Debuggen von Kundenproblemen.
+description: Verwenden Sie die Auditprotokollierung als ersten Schritt beim Debugging von Kundenproblemen.
 seo-description: Use Audit Logging as a first place to go when debugging customer issues.
 seo-title: Audit Logging
-title: Prüfprotokollierung
+title: Auditprotokollierung
 uuid: null
 exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Prüfprotokollierung {#audit-logging}
+# Auditprotokollierung {#audit-logging}
 
-Verwenden Sie [!UICONTROL  Audit Logging] als ersten Schritt zum Debuggen von Kundenproblemen.
+Verwenden Sie [!UICONTROL  Audit Logging] als ersten Ort, um Kundenprobleme zu debuggen.
 
 >[!NOTE]
 >
->Die [!UICONTROL Audit Logging]-Funktionalität und -Dokumentation werden derzeit entwickelt und kann geändert werden. Bitte protokollieren Sie alle Probleme, auf die Sie in [!DNL JIRA] ([!DNL UI] Team) stoßen.
+>Die [!UICONTROL Audit Logging] Funktionalität und Dokumentation wird derzeit entwickelt und kann geändert werden. Bitte alle Probleme protokollieren, die in [!DNL JIRA] ([!DNL UI] Team) auftreten.
 
-![Prüfprotokollierungsansicht](assets/audit-logging-img.png)
+![Ansicht für Auditprotokollierung](assets/audit-logging-img.png)
 
 <!-- 
 

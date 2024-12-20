@@ -1,5 +1,5 @@
 ---
-description: Dinge, die Sie Ihren Kunden empfehlen sollten, sich dessen bewusst zu sein, wenn sie mit den Audience Manager-APIs arbeiten.
+description: Dinge, die Sie Ihre Kunden darauf hinweisen sollten, wenn sie mit den Audience Manager-APIs arbeiten.
 seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
 seo-title: API Requirements and Recommendations
 title: API-Anforderungen und Recommendations
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # API-Anforderungen und Recommendations {#api-requirements-and-recommendations}
 
-Dinge, die Sie Ihren Kunden empfehlen sollten, sich dessen bewusst zu sein, wenn sie mit dem Audience Manager [!DNL API]s arbeiten.
+Dinge, die Sie Ihre Kunden darauf aufmerksam machen sollten, wenn sie mit den [!DNL API] des Audience Managers arbeiten.
 
 ## Anforderungen {#requirements}
 
-Beachten Sie Folgendes beim Arbeiten mit dem Code [!DNL Audience Manager] [!DNL API] :
+Beachten Sie beim Arbeiten mit [!DNL Audience Manager] [!DNL API]-Code Folgendes:
 
-* **Anforderungsparameter:** Alle Anforderungsparameter sind erforderlich, sofern nicht anders angegeben.
-* **[!DNL JSON]Content-Typ:** Geben Sie `content-type: application/json` *und* `accept: application/json` in Ihren Code ein.
+* **Anfrageparameter:** Alle Anfrageparameter sind erforderlich, sofern nicht anders angegeben.
+* **[!DNL JSON]Content-Typ:** Geben Sie `content-type: application/json` *und* in Ihrem Code `accept: application/json`.
 
-* **Anforderungen und Antworten:** Anforderungen als ordnungsgemäß formatiertes [!DNL JSON] -Objekt senden. [!DNL Audience Manager] antwortet mit [!DNL JSON] formatierten Daten. Serverantworten können angeforderte Daten, einen Statuscode oder beides enthalten.
+* **Anfragen und Antworten:** Senden von Anfragen als ordnungsgemäß formatiertes [!DNL JSON]. [!DNL Audience Manager] antwortet mit [!DNL JSON] formatierten Daten. Serverantworten können angeforderte Daten, einen Status-Code oder beides enthalten.
 
-* **Zugriff:** Ihr [!DNL Audience Manager] -Berater stellt Ihnen eine Client-ID und einen Schlüssel zur Verfügung, mit denen Sie [!DNL API] -Anfragen stellen können.
+* **Zugriff** Ihr [!DNL Audience Manager] stellt Ihnen eine Client-ID und einen Schlüssel zur Verfügung, mit denen Sie [!DNL API] Anfragen stellen können.
 
-* **Dokumentation und Codebeispiele:** Text in *kursiv* stellt eine Variable dar, die Sie beim Erstellen oder Empfangen von [!DNL API] -Daten bereitstellen oder übergeben. Ersetzen Sie den Text *kursiv gedruckt* durch Ihren eigenen Code, Ihre eigenen Parameter oder andere erforderliche Informationen.
+* **Dokumentations- und Codebeispiele:** Text in *kursiv* stellt eine Variable dar, die Sie angeben oder übergeben, wenn Sie [!DNL API] Daten erstellen oder empfangen. Ersetzen *kursiv* Text durch eigenen Code, eigene Parameter oder andere erforderliche Informationen.
 
 ## Recommendations: Erstellen eines generischen API-Benutzers {#recommendations}
 
-Es wird empfohlen, ein eigenes technisches Benutzerkonto für die Arbeit mit dem Audience Manager [!DNL API]s zu erstellen. Dies ist ein generisches Konto, das nicht an einen bestimmten Benutzer in der Organisation Ihres Kunden gebunden ist oder mit diesem verknüpft ist. Mit diesem Benutzerkonto vom Typ [!DNL API] können Sie zwei Dinge erreichen:
+Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit den Audience Managern [!DNL API] erstellen. Dies ist ein allgemeines Konto, das nicht mit einem bestimmten Benutzer in der Organisation Ihres Kunden verknüpft ist. Mit dieser Art [!DNL API] Benutzerkontos können zwei Dinge erreicht werden:
 
-* Identifizieren Sie, welcher Dienst die [!DNL API] aufruft (z. B. Aufrufe von einer Client-App, die unsere [!DNL API] verwenden, oder von Massenänderungen).
-* Gewähren Sie unterbrechungsfreien Zugriff auf die [!DNL API]s. Ein an einen bestimmten Mitarbeiter gebundenes Konto kann gelöscht werden, wenn er das Unternehmen verlässt. Dadurch wird verhindert, dass Ihre Kunden mit dem verfügbaren [!DNL API] -Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft, dieses Problem zu vermeiden.
+* Identifizieren Sie, welcher Service die [!DNL API] aufruft (z. B. Aufrufe von einer Client-Anwendung, die unsere [!DNL API] verwenden, oder von Massenänderungen).
+* Ununterbrochener Zugriff auf die [!DNL API]s. Ein Konto, das an einen bestimmten Mitarbeiter gebunden ist, kann gelöscht werden, wenn er das Unternehmen verlässt. Dies verhindert, dass Ihre Kunden mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft, dieses Problem zu vermeiden.
 
-Nehmen wir als Beispiel oder Anwendungsfall für diesen Kontotyp an, Ihre Kunden möchten mit den [Tools für die Massenverwaltung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en) viele Segmente gleichzeitig ändern. Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches Benutzerkonto mit dem Namen [!DNL API] , das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] -Aufrufe durchzuführen. Dies ist auch dann nützlich, wenn Clients eigene Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API]s verwenden.
+Nehmen wir an, Ihre Kunden möchten als Beispiel oder Anwendungsfall für diese Art von Konto viele Segmente gleichzeitig mit den [Tools für die Massenverwaltung“ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn die Kunden ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API] verwenden.

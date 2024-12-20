@@ -1,5 +1,5 @@
 ---
-description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
+description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. In der Beta-Version vorgenommene Änderungen wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Beta-Umgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die getestet werden sollen, müssen in dieser Umgebung eingegeben und erfasst werden.
 seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
 seo-title: Beta Environment
 solution: Audience Manager
@@ -15,46 +15,46 @@ ht-degree: 2%
 
 # Beta-Umgebung {#beta-environment}
 
-Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
+Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. In der Beta-Version vorgenommene Änderungen wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Beta-Umgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die getestet werden sollen, müssen in dieser Umgebung eingegeben und erfasst werden.
 
 ## Überblick {#overview}
 
 <!-- beta_environment_admin.xml -->
 
-| Dienst | URL/Hostname | Schritte zur Bereitstellung |
+| Service | URL/Hostname | Schritte zur Bereitstellung |
 |--- |--- |--- |
 | S3 | | Siehe [Bereitstellen von Amazon S3-Buckets](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/.. | Von unserer Seite aus brauchen wir keine weiteren Schritte. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
-| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für die Beta-Version gültig. |
-| API | https&amp;colon;//api-beta.demdex.com/.. | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für die Beta-Version gültig. |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/… | Keine zusätzlichen Schritte von unserer Seite erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
+| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
+| API | https&amp;colon;//api-beta.demdex.com/… | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
 
-## Amazon S3-Behälter bereitstellen {#provision-s3-buckets}
+## Amazon S3-Buckets bereitstellen {#provision-s3-buckets}
 
 >[!NOTE]
 >
->Wir gehen weg von der Verwendung von [!DNL FTP/SFTP]. Beachten Sie außerdem, dass ausgehende Datenübertragungen für die Beta-Umgebung nicht funktionieren.
+>Wir bewegen uns weg von [!DNL FTP/SFTP]. Beachten Sie außerdem, dass ausgehende Datenübertragungen in der Beta-Umgebung nicht funktionieren.
 
-So stellen Sie [!DNL S3] -Behälter für eingehende Daten bereit:
+So stellen Sie [!DNL S3] Buckets für eingehende Daten bereit:
 
-1. Verwenden Sie die Funktion [**SKMS Request TechOps Help**](https://skms.adobe.com/).
-1. Wechseln Sie in der linken Navigationsleiste zu &quot;**[!UICONTROL Request TechOps Help]**&quot;.
-1. Geben Sie in **[!UICONTROL Request Search]** Audience Manager in das Suchfeld ein.
+1. Verwenden Sie die [**SKMS Request TechOps Help**](https://skms.adobe.com/)-Funktion.
+1. Navigieren Sie zu **[!UICONTROL Request TechOps Help]** in der linken Navigationsleiste.
+1. Geben Sie **[!UICONTROL Request Search]** Audience Manager in das Suchfeld ein.
 1. Scrollen Sie in den Suchergebnissen nach unten und klicken Sie auf **Audience Manager - S3 Inbound/Outbound Account Provisioning**.
-1. Füllen Sie die Felder im Bereitstellungsfenster aus und geben Sie **Sandbox-Umgebung** im Feld **[!UICONTROL Environment]** an.
+1. Füllen Sie die Felder im Bereitstellungsfenster aus und geben Sie **Feld „Sandbox** Umgebung“ **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
->Wir halten die Verwendung von [!DNL FTP/SFTP] ab und empfehlen die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
+>Wir raten von der Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
 
-## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
+## Zugreifen auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-So greifen Sie auf die [!UICONTROL DCS] in der Beta-Umgebung zu:
+So greifen Sie in der Beta-Umgebung auf die [!UICONTROL DCS] zu:
 
-1. Führen Sie einen [!UICONTROL DCS] -Aufruf mit dem Befehl [!DNL curl] [3} durch. ](https://curl.haxx.se/docs/manpage.html) [!DNL Curl] ist ein Tool zum Übertragen von Daten von oder auf einen Server unter Verwendung eines von vielen unterstützten Protokollen.
+1. Führen Sie einen [!UICONTROL DCS]-Aufruf mit dem [!DNL curl] [Befehl](https://curl.haxx.se/docs/manpage.html) durch. [!DNL Curl] ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Stellen Sie sicher, dass Ihre Anfrage von der Beta [!UICONTROL DCS] bereitgestellt wurde, indem Sie in der Antwort-Kopfzeile [!UICONTROL DCS] nach &quot;[!DNL sandbox]&quot;suchen.
+1. Stellen Sie sicher, dass Ihre Anfrage im Beta-[!UICONTROL DCS] verarbeitet wurde, indem Sie im [!UICONTROL DCS]-Antwortheader nach &quot;[!DNL sandbox]&quot; suchen.
 
    Beispiel:
 

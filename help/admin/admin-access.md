@@ -1,5 +1,5 @@
 ---
-description: Melden Sie sich im Portal zur Kontoverwaltung in der Adobe an, um den funktionalen Administratorzugriff anzufordern, und führen Sie die unten beschriebenen Schritte aus.
+description: Melden Sie sich beim Account Management-Portal in Inside Adobe an, um den funktionalen Administratorzugriff anzufordern, und führen Sie die unten beschriebenen Schritte aus.
 seo-description: Log in to the Account Management portal in Inside Adobe to request Functional Admin Access and follow the steps described below.
 seo-title: How to Request Functional Admin Access
 title: Anfordern des funktionalen Administratorzugriffs
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Anfordern des funktionalen Administratorzugriffs {#how-to-request-functional-admin-access}
 
-Melden Sie sich beim Portal [!UICONTROL Identity & Access Management] in [!UICONTROL Inside Adobe] an, um [!UICONTROL Functional Admin Access] anzufordern, und befolgen Sie die unten beschriebenen Schritte.
+Melden Sie sich beim [!UICONTROL Identity & Access Management] Portal an, [!UICONTROL Inside Adobe] um [!UICONTROL Functional Admin Access] anzufordern, und führen Sie die unten beschriebenen Schritte aus.
 
 <!-- request-functional-admin-access.xml -->
 
-1. Melden Sie sich beim Portal [Identity &amp; Access Management](https://iam.corp.adobe.com) an.
-2. Gehen Sie zu **[!UICONTROL Accounts]** > **[!UICONTROL Access Requests]**.
+1. Melden Sie sich beim Portal [Identitäts- und ](https://iam.corp.adobe.com)&quot; an.
+2. Navigieren Sie zu **[!UICONTROL Accounts]** > **[!UICONTROL Access Requests]**.
 3. Klicken Sie im Abschnitt [!UICONTROL Request Access] auf **[!UICONTROL Select an Access Request Type]**.
-4. Entscheiden Sie, ob Sie selbst oder eine andere Person Zugriff anfordern. Wenn Sie Zugriff für eine andere Person anfordern, geben Sie deren Adobe ID in das entsprechende Feld ein und klicken Sie auf **[!UICONTROL Find User]**.
-5. Wählen Sie in der Liste der Zugriffstypen die Option &quot;**[!UICONTROL Digital Marketing]**&quot;.
-6. Wählen Sie auf der Seite **[!UICONTROL Manage Digital Marketing Access]** im Dropdown-Feld die Option **[!UICONTROL Request Admin Console Access]** aus und klicken Sie auf **[!UICONTROL Next/Submit]**.
-7. Wählen Sie auf der Seite **[!UICONTROL Request Admin Console Access - Console]** im Dropdown-Feld die Option **[!UICONTROL AAM]** aus und klicken Sie auf **[!UICONTROL Next/Submit]**.
-8. Wählen Sie im Fenster **[!UICONTROL Request Admin Console Access - Groups]** die Option **[!UICONTROL AAM Functional Admin - General Access]** in der Liste **[!UICONTROL Available Entitlements]** aus und geben Sie eine **[!UICONTROL Business Justification]** für Ihre Anfrage ein. Bestätigen Sie die Anforderung, indem Sie auf **[!UICONTROL Next/Submit]** klicken.
+4. Wählen Sie aus, ob Sie den Zugriff für sich selbst oder eine andere Person anfordern möchten. Wenn Sie den Zugriff für eine andere Person anfordern, geben Sie deren Adobe ID in das entsprechende Feld ein und klicken Sie auf **[!UICONTROL Find User]**.
+5. Wählen Sie **[!UICONTROL Digital Marketing]** in der Liste Zugriffstyp aus.
+6. Wählen Sie auf der Seite **[!UICONTROL Manage Digital Marketing Access]** in der Dropdown-Liste **[!UICONTROL Request Admin Console Access]** aus und klicken Sie auf **[!UICONTROL Next/Submit]**.
+7. Wählen Sie auf der Seite **[!UICONTROL Request Admin Console Access - Console]** in der Dropdown-Liste **[!UICONTROL AAM]** aus und klicken Sie auf **[!UICONTROL Next/Submit]**.
+8. Wählen Sie im **[!UICONTROL Request Admin Console Access - Groups]** Fenster **[!UICONTROL AAM Functional Admin - General Access]** in der **[!UICONTROL Available Entitlements]** aus und geben Sie einen **[!UICONTROL Business Justification]** für Ihre Anfrage ein. Bestätigen Sie die Anfrage durch Klicken auf **[!UICONTROL Next/Submit]**.
 9. Ihre Anfrage muss genehmigt werden, bevor Sie funktionalen Administratorzugriff haben.

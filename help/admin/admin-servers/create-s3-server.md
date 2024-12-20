@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie die Server-Seite im Audience Manager Admin Tool, um einen neuen S3-Server zu erstellen oder einen bestehenden Server zu bearbeiten.
+description: Verwenden Sie die Seite „Server“ im Serveradministrator-Tool, um einen neuen S3-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
 seo-title: Create or Edit an S3 Server
 title: Erstellen oder Bearbeiten eines S3-Servers
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # Erstellen oder Bearbeiten eines S3-Servers {#create-or-edit-an-s-server}
 
-Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot;im Audience Manager-Admin-Tool, um einen neuen &quot;[!DNL S3]&quot;-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um einen neuen [!DNL S3] zu erstellen oder einen vorhandenen Audience Manager zu bearbeiten.
 
 >[!NOTE]
 >
->Sie müssen über die Rolle &quot;[!UICONTROL DEXADMIN]&quot;verfügen, um neue Server zu erstellen oder vorhandene Server zu bearbeiten.
+>Sie müssen über die Rolle [!UICONTROL DEXADMIN] verfügen, um neue Server zu erstellen oder vorhandene Server zu bearbeiten.
 
 1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Um einen vorhandenen Server zu bearbeiten, klicken Sie in der Spalte **[!UICONTROL Label]** auf den gewünschten Server.
-1. Geben Sie die gewünschte Bezeichnung für diesen Server an.
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Protocol]** das gewünschte Protokoll aus: **[!UICONTROL S3]**.
+1. Geben Sie den gewünschten Titel für diesen Server an.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Protocol]** das gewünschte Protokoll aus: **[!UICONTROL S3]**.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Benutzerhandbuch für Audience Manager*.
+   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 
-   * **[!UICONTROL Account]:** Geben Sie das gewünschte [!DNL S3]-Konto an.
-   * **[!UICONTROL Bucket]:** Geben Sie den gewünschten [!DNL S3] Behälter an.
-   * **[!UICONTROL Directory]:** Geben Sie das gewünschte Verzeichnis [!DNL S3] an.
+   * **[!UICONTROL Account]:** Geben Sie das gewünschte [!DNL S3] an.
+   * **[!UICONTROL Bucket]:** Geben Sie den gewünschten [!DNL S3] an.
+   * **[!UICONTROL Directory]:** Geben Sie das gewünschte [!DNL S3] an.
    * **[!UICONTROL Access Key]:** Geben Sie den gewünschten [!DNL S3] Zugriffsschlüssel an.
-   * **[!UICONTROL Secret Key]:** Geben Sie den gewünschten geheimen Schlüssel [!DNL S3] an.
+   * **[!UICONTROL Secret Key]:** Geben Sie den gewünschten geheimen [!DNL S3] an.
 
-1. Klicken Sie auf &quot;**[!UICONTROL Create]**&quot;, wenn Sie einen neuen Server erstellen, oder auf &quot;**[!UICONTROL Update]**&quot;, wenn Sie einen vorhandenen Server bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]**, wenn Sie einen vorhandenen Server bearbeiten.

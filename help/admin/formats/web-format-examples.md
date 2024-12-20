@@ -1,5 +1,5 @@
 ---
-description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
+description: Beispiele für einige häufig verwendete HTTP-Makrokombinationen.
 seo-description: Examples of some commonly used HTTP macro combinations.
 seo-title: HTTP Format Macro Examples
 title: Beispiele für HTTP-Formatmakros
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Beispiele für HTTP-Formatmakros {#http-format-macro-examples}
 
-Beispiele für häufig verwendete [!DNL HTTP] -Makrokombinationen.
+Beispiele für einige häufig verwendete [!DNL HTTP]-Makrokombinationen.
 
-Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros](../formats/web-formats.md) .
+Unter [HTTP-Formatmakros](../formats/web-formats.md) finden Sie eine Liste der Makros und ihrer Definitionen.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Makrobeispiele </th> 
+   <th colname="col1" class="entry"> Beispiele für Makros </th> 
    <th colname="col2" class="entry"> Ausgabeformat </th> 
   </tr> 
  </thead>
@@ -137,7 +137,7 @@ Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese Bedingung kann für POST-Anforderungen beim Verketten von Listen für Segmente und entfernte Segmente verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese bedingte POST kann für Segmentanfragen beim Verketten von Listen für Segmente und entfernte Segmente verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

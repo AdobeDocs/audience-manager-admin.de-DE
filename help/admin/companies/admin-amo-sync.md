@@ -1,5 +1,5 @@
 ---
-description: Standardmäßig synchronisieren alle Unternehmen Daten mit Adobe Media Optimizer (AMO). In der Admin-Benutzeroberfläche verfügt jeder Unternehmens-Container über eine Datenquelle, die diesen Prozess verwaltet. Diese Datenquelle ist Adobe AMO (ID 411). Klicken Sie auf eine Behälterzeile (auf der Registerkarte Container ) für ein ausgewähltes Unternehmen, um diese Standardsynchronisierung zu deaktivieren oder dem AMO-Synchronisierungsprozess andere Datenquellen hinzuzufügen und zu entfernen.
+description: Standardmäßig synchronisieren alle Unternehmen Daten mit Adobe Media Optimizer (AMO). In der Admin-Benutzeroberfläche verfügt jeder Unternehmens-Container über eine Datenquelle, die diesen Prozess verwaltet. Diese Datenquelle ist Adobe AMO (ID 411). Klicken Sie auf eine Container-Zeile (unter der Registerkarte Container ) für ein ausgewähltes Unternehmen, um diese Standardsynchronisierung zu deaktivieren oder andere Datenquellen zum AMO-Synchronisierungsvorgang hinzuzufügen und zu entfernen.
 seo-description: By default, all companies sync data with Adobe Media Optimizer (AMO). In the Admin UI, each company container has a data source that manages this process. This data source is Adobe AMO (ID 411). Click a container row (under the Containers tab) for a selected company to disable this default sync or to add and remove other data sources to the AMO sync process.
 seo-title: ID Syncing with Media Optimizer
 title: ID-Synchronisierung mit Media Optimizer
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # ID-Synchronisierung mit Media Optimizer {#id-syncing-with-media-optimizer}
 
-Standardmäßig synchronisieren alle Unternehmen Daten mit [!DNL Adobe Media Optimizer] ([!DNL AMO]). Im [!UICONTROL Admin UI] verfügt jeder Unternehmens-Container über eine Datenquelle, die diesen Prozess verwaltet. Diese Datenquelle ist [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Klicken Sie auf eine Containerzeile (auf der Registerkarte [!UICONTROL Containers] ) für ein ausgewähltes Unternehmen, um diese Standardsynchronisierung zu deaktivieren oder weitere Datenquellen zum Synchronisierungsprozess [!DNL AMO] hinzuzufügen und zu entfernen.
+Standardmäßig synchronisieren alle Unternehmen Daten mit [!DNL Adobe Media Optimizer] ([!DNL AMO]). In der [!UICONTROL Admin UI] verfügt jeder Unternehmens-Container über eine Datenquelle, die diesen Prozess verwaltet. Diese Datenquelle ist [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Klicken Sie auf eine Container-Zeile (unter der Registerkarte [!UICONTROL Containers]) für ein ausgewähltes Unternehmen, um diese Standardsynchronisierung zu deaktivieren oder andere Datenquellen zum [!DNL AMO] hinzuzufügen und zu entfernen.
 
 ![](assets/id-sync.png)
 
 ## ID-Synchronisierungsstatus {#id-sync-status}
 
-In der folgenden Tabelle wird der Synchronisierungsstatus einer Datenquelle beschrieben.
+Die folgende Tabelle beschreibt den Synchronisierungsstatus einer Datenquelle.
 
 | Status | Beschreibung |
 |------ | -------- |
-| Aus | Entfernen Sie alle Datenquellen aus [!UICONTROL Selected Data Sources] für diesen Container, um die ID-Synchronisationen mit [!DNL AMO] zu deaktivieren. |
-| On (unabhängig von der ID-Dienstversion) | Eine Datenquelle wird unabhängig von der Version des ID-Diensts mit [!DNL AMO] synchronisiert, wenn: <ul><li>Die Datenquelle wird in der Liste [!UICONTROL Selected Data Sources] angezeigt.</li><li>Das Kontrollkästchen [!DNL AMO] *ist nicht* ausgewählt.</li></ul> |
-| On (unabhängig von der ID-Dienstversion) | Eine Datenquelle synchronisiert mit [!DNL AMO] mit dem ID-Dienst Version 2.0 (oder höher), wenn: <ul><li>Die Datenquelle wird in der Liste [!UICONTROL Selected Data Sources] angezeigt.</li><li>Das Kontrollkästchen [!DNL AMO] *ist* aktiviert.</li></ul> |
+| Aus | Entfernen Sie alle Datenquellen aus [!UICONTROL Selected Data Sources] für diesen Container, um die ID-Synchronisierung mit [!DNL AMO] zu deaktivieren |
+| Ein (unabhängig von der ID-Service-Version) | Eine Datenquelle synchronisiert mit [!DNL AMO] unabhängig von der ID-Service-Version, wenn: <ul><li>Die Datenquelle wird in der Liste [!UICONTROL Selected Data Sources] angezeigt.</li><li>Das [!DNL AMO] Kontrollkästchen *ist nicht* aktiviert.</li></ul> |
+| Ein (unabhängig von der ID-Service-Version) | Eine Datenquelle wird mit [!DNL AMO] mit ID-Service Version 2.0 (oder höher) synchronisiert, wenn: <ul><li>Die Datenquelle wird in der Liste [!UICONTROL Selected Data Sources] angezeigt.</li><li>Das [!DNL AMO] Kontrollkästchen *ist* aktiviert.</li></ul> |
 
 >[!MORELIKETHIS]
 >

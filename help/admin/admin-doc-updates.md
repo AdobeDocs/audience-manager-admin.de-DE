@@ -16,16 +16,16 @@ ht-degree: 94%
 
 Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
 
-Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden Sie in den [Experience Cloud-Versionshinweisen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Informationen zu den Änderungen der Dokumentation für [!DNL Audience Manager] finden Sie unter [Aktualisierungen der Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden Sie in den [Experience Cloud-Versionshinweisen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). [!DNL Audience Manager] Dokumentationsänderungen finden Sie unter [Aktualisierungen der Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
-## Aktualisierungen der Dokumentation AAM 2019 {#aam-2019-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2019 {#aam-2019-docs-updates}
 
 | Thema | Beschreibung |
 |--- |--- |
 | HTTP-Formatmakros | Wir haben ein neues Makro `REGION_ID_LIST` und drei neue Felder `sda`, `sda` und `sda` zum Makro `USER_LIST` hinzugefügt. |
 | HTTP-Formatmakros | Es wurden zwei neue Makros hinzugefügt: `ECID` und `MCID`. |
 
-## Aktualisierungen der Dokumentation AAM 2018 {#aam-2018-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2018 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -52,7 +52,7 @@ Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden 
  </tbody> 
 </table>
 
-## Aktualisierungen der Dokumentation AAM 2017 {#aam-2017-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2017 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -105,7 +105,7 @@ Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden 
  </tbody> 
 </table>
 
-## Aktualisierungen der Dokumentation AAM 2016 {#aam-2016-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2016 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden 
  </tbody> 
 </table>
 
-## Aktualisierungen der Dokumentation AAM 2015 {#aam-2015-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2015 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden 
  </tbody> 
 </table>
 
-## Aktualisierungen der Dokumentation AAM 2014 {#aam-2014-docs-updates}
+## Aktualisierungen der Dokumentation zu AAM 2014 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 
