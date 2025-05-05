@@ -22,7 +22,7 @@ Auf der Seite [!UICONTROL OAuth2 Clients] können Sie eine Liste der [!UICONTROL
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Ihre Kundin bzw. Ihr Kunde die [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)-Dokumentation im Audience Manager-Benutzerhandbuch liest.
+>Stellen Sie sicher, dass Ihre Kundin bzw. Ihr Kunde die [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=de#oauth)-Dokumentation im Audience Manager-Benutzerhandbuch liest.
 
 [!DNL OAuth2] ist ein offener Autorisierungsstandard, um einen gesicherten delegierten Zugriff auf [!DNL Audience Manager] Ressourcen im Namen eines Ressourceneigentümers bereitzustellen.
 

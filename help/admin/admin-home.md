@@ -18,7 +18,7 @@ Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Format
 
 >[!IMPORTANT]
 >
-> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind, navigieren Sie bitte zur Übersicht über das [Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind, navigieren Sie bitte zur Übersicht über das [Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -34,13 +34,13 @@ Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Format
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Versionshinweise</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud-Versionshinweisen</a>. </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">Ältere Ankündigungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Frühere Versionshinweise</a>. </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">Neue Funktionen und Fehlerbehebungen finden Sie in den <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de" format="https" scope="external">Experience Cloud-Versionshinweisen</a>. </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">Ältere Ankündigungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de" format="https" scope="external">Frühere Versionshinweise</a>. </li> 
     </ul> <p class="head"> <b>Experience Cloud-Ressourcen</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobe Social Community</a> </li> 
-     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe-Schulungen und -Tutorials</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/de/support/social.html" format="http" scope="external"> Adobe Social Community</a> </li> 
+     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/de/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe-Schulungen und -Tutorials</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/de/support/experience-cloud.html" format="https" scope="external"> Produktdokumentation – Startseite</a> </li> 
     </ul> </td> 

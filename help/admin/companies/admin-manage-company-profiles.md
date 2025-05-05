@@ -43,13 +43,13 @@ Auf der Seite [!UICONTROL Companies] im Audience Manager Admin-Tool können Sie 
       * **[!UICONTROL Full AAM]**: Geben Sie an, dass das Unternehmen über ein vollständiges Adobe Audience Manager-Konto verfügt und die Benutzer Anmeldezugriff haben.
       * **[!UICONTROL MMP]**: Geben Sie an, dass das Unternehmen für die Verwendung der [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])-Funktionen aktiviert wurde. Der [!UICONTROL MMP] ermöglicht die Freigabe von Audiences auf der Experience Cloud mithilfe eines [!UICONTROL Experience Cloud ID] ([!DNL MCID]), der jedem Besucher zugewiesen ist und dann vom Audience Manager verwendet wird. Wenn Sie diesen Kontotyp auswählen, wird die [!UICONTROL Experience Cloud ID Service] ebenfalls automatisch ausgewählt.
 
-        Weitere Informationen finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+        Weitere Informationen finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de).
 
    * **[!UICONTROL Data Source]**: Geben Sie an, dass das Unternehmen ein Drittanbieter von Daten in Audience Manager ist.
    * **[!UICONTROL Targeting Partner]**: Geben Sie an, dass das Unternehmen als Targeting-Plattform für Audience Manager-Kunden fungiert.
    * **[!UICONTROL Visitor ID Service]**: Geben Sie an, dass das Unternehmen für die Verwendung der [!UICONTROL Experience Cloud Visitor ID Service] aktiviert wurde.
 
-     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum [Experience Cloud-Besucher-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
+     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum [Experience Cloud-Besucher-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de).
 
    * **[!UICONTROL Agency]**: Geben Sie an, dass die Firma über ein [!UICONTROL Agency] Konto verfügen soll.
 
@@ -90,13 +90,13 @@ Das Profil eines Unternehmens bearbeiten, einschließlich Name, Beschreibung, Su
       * **[!UICONTROL MMP]**: Geben Sie an, dass das Unternehmen für die Verwendung der Funktionen des primären Marketing-Profils ([!UICONTROL MMP]) aktiviert wurde.
 
         Wenn Sie diesen Kontotyp auswählen, wird auch **[!UICONTROL Visitor ID Service]** automatisch ausgewählt.
-Weitere Informationen finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+Weitere Informationen finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de).
 
    * **[!UICONTROL Data Source]**: Geben Sie an, dass das Unternehmen ein Drittanbieter von Daten in Audience Manager ist.
    * **[!UICONTROL Targeting Partner]**: Geben Sie an, dass das Unternehmen als Targeting-Plattform für Audience Manager-Kunden fungiert.
    * **[!UICONTROL Visitor ID Service]**: Geben Sie an, dass das Unternehmen für die Verwendung des Experience Cloud-Besucher-ID-Service aktiviert wurde.
 
-     Der Experience Cloud-Besucher-ID-Dienst stellt eine universale Besucher-ID für alle Experience Cloud-Lösungen bereit. Weitere Informationen finden Sie im Benutzerhandbuch zum [Experience Cloud-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
+     Der Experience Cloud-Besucher-ID-Dienst stellt eine universale Besucher-ID für alle Experience Cloud-Lösungen bereit. Weitere Informationen finden Sie im Benutzerhandbuch zum [Experience Cloud-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 
    * **[!UICONTROL Agency]**: Geben Sie an, dass die Firma über ein Agenturkonto verfügen soll.
    * **[!UICONTROL Features]**: Die gewünschten Optionen auswählen:

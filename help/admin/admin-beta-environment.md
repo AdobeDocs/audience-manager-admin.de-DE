@@ -44,7 +44,7 @@ So stellen Sie [!DNL S3] Buckets für eingehende Daten bereit:
 
 >[!NOTE]
 >
->Wir raten von der Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
+>Wir raten von der Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=de) aufgeführt.
 
 ## Zugreifen auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 

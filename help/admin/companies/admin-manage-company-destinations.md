@@ -18,7 +18,7 @@ Erstellen, Bearbeiten und Löschen von Audience Manager-Zielen.
 
 <!-- t_company_destinations.xml -->
 
-Detaillierte Informationen finden Sie unter [Ziele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) im *Audience Manager-Benutzerhandbuch*.
+Detaillierte Informationen finden Sie unter [Ziele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=de) im *Audience Manager-Benutzerhandbuch*.
 
 ## Erstellen oder Bearbeiten von Unternehmenszielen {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-
 >
 >Für den [!UICONTROL Bulk ID] Zieltyp können Sie weder den [!DNL Audience Manager]-[!UICONTROL User ID] noch die [!DNL Adobe Experience Cloud]-ID verwenden.
 
-Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[ das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[ das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=de).
 
 * **[!UICONTROL Target Data Source]:** (Erforderlich) Wählen Sie die gewünschte Datenquelle für dieses Ziel aus der Dropdown-Liste aus. Diese Einstellung ermöglicht die Kennzeichnung ausgehender Daten, was die Aufnahme in separate Client-seitige Systeme ermöglicht.
 * **[!UICONTROL Foreign Account ID]:** Geben Sie die ID des ausländischen Kontos für dieses Ziel an. Dies ist der Identifikationswert im System des Empfängers für diese ausgehenden Daten.
