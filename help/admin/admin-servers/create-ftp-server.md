@@ -47,7 +47,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um ein
    >[!NOTE]
    >
    >Stellen Sie bei der Konfiguration der SSH-Schlüsselauthentifizierung sicher, dass Sie die öffentlichen und privaten Schlüssel nur im OpenSSH-Format generieren.
-   1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
-   1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
-   1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
+   >1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
+   >1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
+   >1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
 1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]**, wenn Sie einen vorhandenen Server bearbeiten.

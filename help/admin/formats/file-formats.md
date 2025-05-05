@@ -105,7 +105,7 @@ Makros werden nur in Datenzeilen verwendet. Beispiele finden Sie unter [Beispiel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>}</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&rbrace;</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,7 +137,7 @@ Makros werden nur in Datenzeilen verwendet. Beispiele finden Sie unter [Beispiel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>{</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&lbrace;</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 

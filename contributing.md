@@ -17,7 +17,7 @@ Dieses Projekt unterliegt dem [Verhaltenskodex](https://git.corp.adobe.com/OpenS
 
 ## Lizenzvereinbarung für Mitarbeiter
 
-Allen Drittanbieter-Beiträgen zu diesem Projekt muss eine unterzeichnete Anbieterlizenz beigelegt sein. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. Unterzeichnen Sie unser Contributor License Agreement (CLA, Lizenzvereinbarung für Beitragende) unter [SOME LINK](no link yet). Eine Adobe CLA muss nur ein Mal eingereicht werden. Wenn Sie also schon einmal eine CLA eingereicht haben, müssen Sie nichts mehr unternehmen.
+Allen Drittanbieter-Beiträgen zu diesem Projekt muss eine unterzeichnete Anbieterlizenz beigelegt sein. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. Unterzeichnen Sie unser Contributor License Agreement (CLA, Lizenzvereinbarung für Beitragende) unter [SOME LINK] (no link yet). Eine Adobe CLA muss nur ein Mal eingereicht werden. Wenn Sie also schon einmal eine CLA eingereicht haben, müssen Sie nichts mehr unternehmen.
 
 ## Code-Überprüfungen
 
