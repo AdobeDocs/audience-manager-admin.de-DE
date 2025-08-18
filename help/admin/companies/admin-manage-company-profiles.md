@@ -49,7 +49,7 @@ Auf der Seite [!UICONTROL Companies] im Audience Manager Admin-Tool können Sie 
    * **[!UICONTROL Targeting Partner]**: Geben Sie an, dass das Unternehmen als Zielgruppenbestimmungsplattform für Audience Manager-Kunden fungiert.
    * **[!UICONTROL Visitor ID Service]**: Geben Sie an, dass das Unternehmen für die Verwendung der [!UICONTROL Experience Cloud Visitor ID Service] aktiviert wurde.
 
-     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum Experience Cloud-Besucher-ID-Service [](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
+     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum Experience Cloud-Besucher-ID-Service [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
    * **[!UICONTROL Agency]**: Geben Sie an, dass die Firma über ein [!UICONTROL Agency] Konto verfügen soll.
 

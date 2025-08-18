@@ -24,9 +24,9 @@ Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. In de
 | Service | URL/Hostname | Schritte zur Bereitstellung |
 |--- |--- |--- |
 | S3 | | Siehe [Bereitstellen von Amazon S3-Buckets](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/… | Keine zusätzlichen Schritte von unserer Seite erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
-| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
-| API | https&amp;colon;//api-beta.demdex.com/… | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
+| DCS | https&colon;//dcs-beta.demdex.net/… | Keine zusätzlichen Schritte von unserer Seite erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
+| Benutzeroberfläche | https&colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
+| API | https&colon;//api-beta.demdex.com/… | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
 
 ## Amazon S3-Buckets bereitstellen {#provision-s3-buckets}
 
