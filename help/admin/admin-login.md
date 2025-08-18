@@ -18,7 +18,7 @@ Melden Sie sich mit Ihrem Webbrowser beim Adobe Audience Manager Admin-Tool an. 
 
 >[!IMPORTANT]
 >
-> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind, navigieren Sie bitte zur Übersicht über das [Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind, navigieren Sie bitte zur Übersicht über das [Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de)
 
 <!-- t_login.xml -->
 
