@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Erstellen oder Bearbeiten eines Formats {#create-or-edit-a-format}
 
-Verwenden Sie die [!UICONTROL Formats] im Audience Manager Admin-Tool, um ein neues Format zu erstellen oder ein vorhandenes Format zu bearbeiten.
+Verwenden Sie die Seite &quot;[!UICONTROL Formats]&quot; im Audience Manager Admin-Tool, um ein neues Format zu erstellen oder ein vorhandenes Format zu bearbeiten.
 
 <!-- t_create_format.xml -->
 
@@ -43,8 +43,8 @@ Verwenden Sie die [!UICONTROL Formats] im Audience Manager Admin-Tool, um ein ne
    * **[!UICONTROL Data Row]:** Geben Sie den Text an, der in jeder ausgehenden Zeile der Datei angezeigt wird.
    * **[!UICONTROL Maximum File Size (In MB)]:** Geben Sie die maximale Dateigröße für Datenübertragungsdateien an. Komprimierte Dateien müssen kleiner als 100 MB sein. Die unkomprimierte Dateigröße ist unbegrenzt.
    * **[!UICONTROL Compression]:** Wählen Sie den gewünschten Komprimierungstyp: gz oder zip für Ihre Datendateien. Für den Versand an [!UICONTROL AWS S3] müssen Sie .gz- oder unkomprimierte Dateien verwenden.
-   * **[!UICONTROL .info Receipt]:** Gibt an, dass eine Datei für die Übertragungssteuerung ([!DNL .info]) generiert wird. Die [!DNL .info] enthält Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager Dateiübertragungen ordnungsgemäß verarbeitet hat. Weitere Informationen finden Sie unter [Transfersteuerungsdateien für Protokolldateiübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=de).
-   * **[!UICONTROL MD5 Checksum Receipt]:** Gibt an, dass eine [!DNL MD5] generiert wird. Die [!DNL MD5] Prüfsummenquittung, damit Partner überprüfen können, ob der Audience Manager die vollständige Übertragung korrekt verarbeitet hat.
+   * **[!UICONTROL .info Receipt]:** Gibt an, dass eine Datei für die Übertragungssteuerung ([!DNL .info]) generiert wird. Die [!DNL .info]-Datei enthält Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob Audience Manager Dateiübertragungen korrekt verarbeitet hat. Weitere Informationen finden Sie unter [Transfersteuerungsdateien für Protokolldateiübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
+   * **[!UICONTROL MD5 Checksum Receipt]:** Gibt an, dass eine [!DNL MD5] generiert wird. Die [!DNL MD5] Prüfsummenquittung, mit der Partner überprüfen können, ob Audience Manager die vollständige Übertragung ordnungsgemäß verarbeitet hat.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL HTTP]** ausgewählt haben, füllen Sie die Felder aus:
 
@@ -57,5 +57,5 @@ Verwenden Sie die [!UICONTROL Formats] im Audience Manager Admin-Tool, um ein ne
 ## Löschen eines Formats {#delete-format}
 
 1. Klicken Sie auf **[!UICONTROL Formats]**.
-2. Klicken Sie in der **[!UICONTROL Actions]** Spalte des gewünschten Formats auf ![](assets/icon_delete.png) .
+2. Klicken Sie in der ![](assets/icon_delete.png) Spalte des gewünschten Formats auf **[!UICONTROL Actions]** .
 3. Klicken Sie auf **[!UICONTROL OK]** , um den Löschvorgang zu bestätigen.

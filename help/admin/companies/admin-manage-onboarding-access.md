@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Die Zielgruppe für diese Seite sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager sind und eine Zuordnung von Datenquellen eines Zweitanbieters anfordern, wie auf dieser Seite beschrieben, wenden Sie sich an die Kundenunterstützung oder Ihren technischen Kundenbetreuer.
-> Beachten Sie, dass nicht erforderlich ist, um eine Zuordnung für bestehende Datenfreigabe-Beziehungen anzufordern. Die Zuordnung ist auch nicht erforderlich, wenn Daten in Zieldatenquellen integriert werden, die zu Ihrer PID gehören.
+> Die Zielgruppe für diese Seite sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager-Kunde sind und eine Zuordnung von Zweitanbieter-Datenquellen anfordern, wie auf dieser Seite beschrieben, wenden Sie sich an die Kundenunterstützung oder Ihren technischen Kundenbetreuer.
+> > Beachten Sie, dass nicht erforderlich ist, um eine Zuordnung für bestehende Datenfreigabe-Beziehungen anzufordern. Die Zuordnung ist auch nicht erforderlich, wenn Daten in Zieldatenquellen integriert werden, die zu Ihrer PID gehören.
 
-Um zu verhindern, dass Dateien und Daten versehentlich in Zieldatenquellen anderer Partner eingefügt werden, hat Audience Manager eine Zuordnungsanforderung zwischen der Partner-ID (PID) und den Datenquellen (DPID) anderer Partner hinzugefügt. Weitere Informationen zu PID und DPID finden Sie im [Index der Audience Manager-IDs](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=de).
+Um zu verhindern, dass Dateien und Daten versehentlich in Zieldatenquellen anderer Partner eingefügt werden, hat Audience Manager eine Zuordnungsanforderung zwischen der Partner-ID (PID) und den Datenquellen (DPID) anderer Partner hinzugefügt. Weitere Informationen zu PID und DPID finden Sie im [Index von Audience Manager IDs](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
-Wenn ein Partnerpartner oder Kunde für die gemeinsame Datennutzung von Zweitanbietern Dateien in eine Zieldatenquelle aufnehmen möchte, deren Eigentümer er nicht ist, muss er bzw. sie eine Zuordnung zwischen seiner Audience Manager-ID (PID) und dieser spezifischen Datenquelle (DPID) anfordern. Wenn die Zuordnung fehlt, werden die Dateien vom eingehenden Datenauftrag nicht verarbeitet und die Daten werden nicht in den Audience Manager integriert.
+Wenn Audience Manager-Partner oder -Kundinnen bzw. -Kunden zu Zwecken der Datenfreigabe von Zweitanbietern Dateien in eine Zieldatenquelle aufnehmen möchten, deren Eigentümer bzw. Eigentümerin sie nicht ist, müssen sie eine Zuordnung zwischen ihrer Partner-ID (PID) und dieser spezifischen Datenquelle (DPID) anfordern. Wenn die Zuordnung fehlt, werden die Dateien vom eingehenden Datenauftrag nicht verarbeitet und die Daten werden nicht in Audience Manager integriert.
 
 Um diese Zuordnung zu erstellen, reichen Sie ein Jira-Ticket beim Audience Manager-Entwicklungsteam ein. Sehen Sie sich ein Beispiel-Jira-Ticket [hier](https://jira.corp.adobe.com/browse/AAM-60353) an. Für vorhandene Datenfreigabe-Beziehungen müssen keine Zuordnungen erstellt werden.

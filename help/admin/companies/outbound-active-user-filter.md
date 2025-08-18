@@ -1,5 +1,5 @@
 ---
-description: Folgen Sie diesen Anweisungen, um eine vollständige Synchronisierungsdatei zu generieren, die nur die kürzlich aktiven Benutzer enthält. Sie können nach aktiven Benutzern filtern, um relevante Daten an ein Targeting-System auf der Site zu übertragen oder die Dateigröße zu begrenzen, die an eine DSP gesendet wird. Dieser Filter kann nicht mit inkrementeller Synchronisierung verwendet werden.
+description: Folgen Sie diesen Anweisungen, um eine vollständige Synchronisierungsdatei zu generieren, die nur die kürzlich aktiven Benutzer enthält. Sie können nach aktiven Benutzern filtern, um relevante Daten an ein Targeting-System auf der Site zu übertragen oder die Größe der an eine DSP gesendeten Dateien zu begrenzen. Dieser Filter kann nicht mit inkrementeller Synchronisierung verwendet werden.
 seo-description: Follow these instructions to generate a full synchronization file that includes recently active users only. You may want to filter for active users to push relevant data to an on-site targeting system or to limit the size of the files sent to a DSP. You cannot use this filter with incremental synchronization.
 seo-title: Filter Outbound Data by Active Users Only
 title: Ausgehende Daten nur nach aktiven Benutzern filtern
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Ausgehende Daten nur nach aktiven Benutzern filtern {#filter-outbound-data-by-active-users-only}
 
-Folgen Sie diesen Anweisungen, um eine vollständige Synchronisierungsdatei zu generieren, die nur die kürzlich aktiven Benutzer enthält. Sie können nach aktiven Benutzern filtern, um relevante Daten an ein Targeting-System auf der Site zu übertragen oder die Dateigröße zu begrenzen, die an eine DSP gesendet wird. Dieser Filter kann nicht mit inkrementeller Synchronisierung verwendet werden.
+Folgen Sie diesen Anweisungen, um eine vollständige Synchronisierungsdatei zu generieren, die nur die kürzlich aktiven Benutzer enthält. Sie können nach aktiven Benutzern filtern, um relevante Daten an ein Targeting-System auf der Site zu übertragen oder die Größe der an eine DSP gesendeten Dateien zu begrenzen. Dieser Filter kann nicht mit inkrementeller Synchronisierung verwendet werden.
 
 >[!NOTE]
 >

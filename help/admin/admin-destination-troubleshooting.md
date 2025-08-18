@@ -1,5 +1,5 @@
 ---
-description: Informationen, die Ihnen beim Einrichten von Zielen im Audience Manager helfen und gängige Probleme vermeiden.
+description: Informationen, die Ihnen beim Einrichten von Zielen in Audience Manager helfen und gängige Probleme vermeiden.
 seo-description: Information to help you set up destinations in Audience Manager and avoid common problems.
 seo-title: Destination Setup Troubleshooting
 title: Fehlerbehebung bei der Zieleinrichtung
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Fehlerbehebung bei der Zieleinrichtung {#destination-setup-troubleshooting}
 
-Informationen, die Ihnen beim Einrichten von Zielen im Audience Manager helfen und gängige Probleme vermeiden.
+Informationen, die Ihnen beim Einrichten von Zielen in Audience Manager helfen und gängige Probleme vermeiden.
 
 ## Ich habe ein Ziel eingerichtet, aber ich sehe keine Dateien. Wo sind sie? {#destination-no-files}
 
@@ -55,15 +55,15 @@ Weitere Informationen zum Einrichten von Formaten und Verwenden von Makros finde
          * Der Behältername sollte ohne Schrägstriche, Präfixe, Suffixe usw. aufgeführt werden. Wenn Sie die Adresse erhalten haben, [!DNL s3://your-bucket] Sie einfach [!DNL your-bucket] zu diesem Feld hinzufügen.
       * **[!UICONTROL Directory]**
          * Lassen Sie dieses Feld leer, es sei denn, Sie haben ein Unterverzeichnis angegeben, in dem die Daten abgelegt werden sollen. Wenn Sie die [!DNL s3://your-bucket/your-subdirectory] erhalten haben, geben Sie [!DNL your-bucket] in das Feld [!UICONTROL Bucket] ein und [!DNL your-subdirectory] sollten in das Feld [!UICONTROL Directory] eingefügt werden. Fügen Sie keine vorangehenden Schrägstriche hinzu.
-         * Wenn Sie mehrere Ordner entlang des Pfads verschieben müssen, sollten Sie nur Schrägstriche als Trennzeichen verwenden. Ein Speicherort von [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] wäre also im Feld [!UICONTROL Bucket] [!DNL your-bucket] und [!DNL your-subdirectory1/your-subdirectory2] in das Feld [!UICONTROL Directory] eingegeben worden.
+         * Wenn Sie mehrere Ordner entlang des Pfads verschieben müssen, sollten Sie nur Schrägstriche als Trennzeichen verwenden. Ein Speicherort von [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] wäre also im Feld [!DNL your-bucket] [!UICONTROL Bucket] und [!DNL your-subdirectory1/your-subdirectory2] in das Feld [!UICONTROL Directory] eingegeben worden.
       * **[!UICONTROL Access / Secret Keys]**
-         * Wenn [!DNL TechOps] einen Bucket erstellt und einem Berater Zugriffs-/Geheimschlüssel bereitstellt, sind diese Anmeldeinformationen in der Regel `READ-ONLY` Anmeldeinformationen, die an den Client übergeben werden sollen. Diese Anmeldeinformationen sollten nicht in die [!UICONTROL Access / Secret Key] Felder eingegeben werden, da dies dazu führt, dass die Übertragung fehlschlägt (da diese Anmeldeinformationen schreibgeschützt und nicht schreibbar sind). Wenn [!DNL TechOps] einen Bucket erstellt und Anmeldeinformationen bereitstellt, sollte der Berater auch ein Adobe-Schlüsselpaar anfordern - NICHT AN DEN CLIENT ZU GEBEN -, das das Schreiben von Dateien in diesen Bucket ermöglicht. Dieser Schlüssel sollte diesen Feldern hinzugefügt werden.
+         * Wenn [!DNL TechOps] einen Bucket erstellt und einem Berater Zugriffs-/Geheimschlüssel bereitstellt, sind diese Anmeldeinformationen in der Regel `READ-ONLY` Anmeldeinformationen, die an den Client übergeben werden sollen. Diese Anmeldeinformationen sollten nicht in die [!UICONTROL Access / Secret Key] Felder eingegeben werden, da dies dazu führt, dass die Übertragung fehlschlägt (da diese Anmeldeinformationen schreibgeschützt und nicht schreibbar sind). Wenn [!DNL TechOps] einen Bucket erstellt und Anmeldeinformationen bereitstellt, sollte der Berater auch ein Adobe-Schlüsselpaar anfordern (NICHT AN DEN CLIENT ZU GEBEN), das das Schreiben von Dateien in diesen Bucket ermöglicht. Dieser Schlüssel sollte diesen Feldern hinzugefügt werden.
 
 * **[!DNL HTTP]**
    * **[!UICONTROL Domain]**
       * Geben Sie keine Präfixinformationen für [!DNL HTTP] Einträge ein. Wenn Sie eine [!DNL https://superduper.com] erhalten haben, geben Sie [!DNL https://superduper.com] in dieses Feld ein.
       * **[!UICONTROL URL Prefix]**
-         * Lassen Sie beim Hinzufügen eines [!DNL URL]-Präfixes den vorangehenden Schrägstrich deaktiviert. Die Adresse [!DNL https://hello.com/r/x/y/z] sollte in das Feld [!UICONTROL Domain] eingegeben [!DNL https://hello.com] und hier in das Feld [!UICONTROL URL Prefix] eingegeben [!DNL r/x/y/z].
+         * Lassen Sie beim Hinzufügen eines [!DNL URL]-Präfixes den vorangehenden Schrägstrich deaktiviert. Die Adresse [!DNL https://hello.com/r/x/y/z] sollte in das Feld [!DNL https://hello.com] eingegeben [!UICONTROL Domain] und hier in das Feld [!DNL r/x/y/z] eingegeben [!UICONTROL URL Prefix].
          * Wenn kein [!UICONTROL URL Prefix] benötigt wird, lassen Sie dieses Feld leer.
       * **[!UICONTROL Authentication - SSH Key]**
          * Geben Sie in dieses Feld den vollständigen Wert des `SSH PRIVATE`-Schlüssels ein, einschließlich Kopf- und Fußzeilen sowie Zeilenumbrüchen, um eine genaue Verschlüsselung/Schlüsselspeicherung sicherzustellen.
@@ -74,7 +74,7 @@ Der ausgehende Prozess wird zweimal täglich ausgeführt. Vor dem Pushen einer D
 
 ### Datei-Split-Größen zu groß
 
-Beim Ausgeben von Dateien an Ziele können Sie größere ausgehende Dateien in Datei-Chunks aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke 10 GB nicht überschreiten. Siehe auch [Name der ausgehenden Datendatei: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=de).
+Beim Ausgeben von Dateien an Ziele können Sie größere ausgehende Dateien in Datei-Chunks aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke 10 GB nicht überschreiten. Siehe auch [Name der ausgehenden Datendatei: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Einrichten Ihrer Ziele zum Exportieren von Experience Cloud-IDs, Kunden-IDs oder Audience Manager-IDs in ausgehende Datendateien {#set-up-destinations-export}
@@ -83,13 +83,13 @@ Auf dieser Seite erfahren Sie, wie Sie Ziele einrichten, um Daten zu exportieren
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl digitaler Kanäle zu aktivieren. Beispielsweise können sie Zielgruppendaten in andere [!DNL Adobe Experience Cloud]-Lösungen ([!DNL Target], [!DNL Campaign] usw.) exportieren. Oder sie können Daten an [!UICONTROL DSP]s, [!UICONTROL SSP] oder jede Plattform senden, die mit Audience Manager integriert ist. Wir führen eine Liste der Partner, mit denen wir zusammenarbeiten, auf unserer Seite [Integrations Wiki](https://wiki.corp.adobe.com/display/MCPI).
+Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl digitaler Kanäle zu aktivieren. Beispielsweise können sie Zielgruppendaten in andere [!DNL Adobe Experience Cloud]-Lösungen ([!DNL Target], [!DNL Campaign] usw.) exportieren. Oder sie können Daten an [!UICONTROL DSP]s, [!UICONTROL SSP] oder jede andere Plattform senden, die in Audience Manager integriert ist. Wir führen eine Liste der Partner, mit denen wir zusammenarbeiten, auf unserer Seite [Integrations Wiki](https://wiki.corp.adobe.com/display/MCPI).
 
 >[!NOTE]
 >
 >Eine ausführliche Anleitung zum Erstellen von Zielen in der Admin-Benutzeroberfläche finden Sie im Artikel [Erstellen oder Bearbeiten von Unternehmenszielen](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Ihre Kunden möchten je nach Ziel verschiedene ID-Typen exportieren. Das folgende Konfigurationsdiagramm zeigt die Optionen, die Sie zum Exportieren von Profilinformationen zu verschiedenen ID-Typen auswählen sollten. Es wird empfohlen, auch auf den [IDs-Index im Audience Manager&quot; ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=de). Es gibt drei wichtige Einstellungen, die zu berücksichtigen sind: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Im Folgenden werden alle beschrieben.
+Ihre Kunden möchten je nach Ziel verschiedene ID-Typen exportieren. Das folgende Konfigurationsdiagramm zeigt die Optionen, die Sie zum Exportieren von Profilinformationen zu verschiedenen ID-Typen auswählen sollten. Es wird empfohlen, auch auf den [ID-Index in Audience Manager&quot; ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Es gibt drei wichtige Einstellungen, die zu berücksichtigen sind: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Im Folgenden werden alle beschrieben.
 
 * [!UICONTROL User ID Key]. Gehen Sie im [!UICONTROL Admin UI] zu **[!UICONTROL Companies]**. Suchen Sie nach dem Unternehmen Ihres Kunden und klicken Sie darauf. Suchen Sie nach der Registerkarte **[!UICONTROL Destinations]** und drücken Sie **[!UICONTROL Add Destination]**. Wählen Sie im **[!UICONTROL Add Destination]**-Workflow die [!UICONTROL User ID Key] aus. Die [!UICONTROL User ID Key] filtert die eingehenden IDs aus der Zieldatenquelle und lässt nur die IDs zu.
 
@@ -128,7 +128,7 @@ Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 3 </td> 
@@ -140,23 +140,23 @@ Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** 
   <tr> 
    <td colname="col01"> 4 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 5 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 7 </td> 
@@ -177,28 +177,28 @@ Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** 
    <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
    <td colname="col2"> <p>Kunden-ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
    <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
    <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Audience Manager-ID </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
+   <td colname="col4"> <p>AUDIENCE MANAGER UUID </p> </td> 
   </tr> 
  </tbody> 
 </table>

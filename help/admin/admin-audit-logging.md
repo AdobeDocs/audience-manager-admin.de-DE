@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Auditprotokollierung {#audit-logging}
 
-Verwenden Sie [!UICONTROL &#x200B; Audit Logging] als ersten Ort, um Kundenprobleme zu debuggen.
+Verwenden Sie [!UICONTROL  Audit Logging] als ersten Ort, um Kundenprobleme zu debuggen.
 
 >[!NOTE]
 >

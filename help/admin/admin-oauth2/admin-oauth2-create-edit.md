@@ -22,7 +22,7 @@ Auf der Seite [!UICONTROL OAuth2 Clients] können Sie eine Liste der [!UICONTROL
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Ihre Kundin bzw. Ihr Kunde die [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=de#oauth)-Dokumentation im Audience Manager-Benutzerhandbuch liest.
+>Stellen Sie sicher, dass Ihr Kunde die [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)-Dokumentation im Audience Manager-Benutzerhandbuch liest.
 
 [!DNL OAuth2] ist ein offener Autorisierungsstandard, um einen gesicherten delegierten Zugriff auf [!DNL Audience Manager] Ressourcen im Namen eines Ressourceneigentümers bereitzustellen.
 
@@ -36,7 +36,7 @@ Verwenden Sie das [!UICONTROL Search] oder die Steuerelemente für die Paginieru
 
 <!-- t_create_edit_auth.xml -->
 
-Verwenden Sie die [!UICONTROL OAuth2 Clients] im Audience Manager-[!UICONTROL Admin]-Tool, um einen neuen [!UICONTROL Oauth2]-Client zu erstellen oder einen vorhandenen Client zu bearbeiten.
+Verwenden Sie die Seite [!UICONTROL OAuth2 Clients] im Audience Manager [!UICONTROL Admin]-Tool, um einen neuen [!UICONTROL Oauth2]-Client zu erstellen oder einen vorhandenen Client zu bearbeiten.
 
 1. Um einen neuen [!UICONTROL OAuth2]-Client zu erstellen, klicken Sie auf **[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**. Um einen vorhandenen [!UICONTROL OAuth2]-Client zu bearbeiten, klicken Sie in der Spalte **[!UICONTROL Client ID]** auf den gewünschten Client.
 1. Geben Sie den gewünschten Namen für diesen [!UICONTROL OAuth2]-Client an. Beachten Sie, dass es sich hierbei nur um einen Namen für den Datensatz handelt.

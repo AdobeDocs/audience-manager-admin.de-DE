@@ -35,7 +35,7 @@ Unter [Beispiele für Makros im HTTP-Format](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Eindeutige Benutzer-ID des Datenpartners. Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn dessen ID bereits mit einer <span class="keyword"> Audience Manager- </span> Geräte-ID synchronisiert wurde. </p> </td> 
+   <td colname="col3"> <p>Eindeutige Benutzer-ID des Datenpartners. Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn dessen ID bereits mit einer <span class="keyword"> Audience Manager </span>-Geräte-ID synchronisiert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Unter [Beispiele für Makros im HTTP-Format](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC-Zeitstempel. Ein interner Zeitstempel, der den Zeitpunkt angibt, zu dem die AAM benachrichtigt wurde, das <span class="wintitle"> S2S-</span>-Ziel bei unseren Partnern zu veröffentlichen. </p> </td> 
+   <td colname="col3"> <p>Unix UTC-Zeitstempel. Ein interner Zeitstempel, der den Zeitpunkt angibt, zu dem AAM benachrichtigt wurde, das <span class="wintitle"> S2S-</span>-Ziel bei unseren Partnern zu veröffentlichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -60,7 +60,7 @@ Unter [Beispiele für Makros im HTTP-Format](../formats/web-format-examples.md) 
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, was dem Legacy-Namen der Experience Cloud entspricht.) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, den Legacy-Namen der Experience Cloud.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -90,7 +90,7 @@ Unter [Beispiele für Makros im HTTP-Format](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Die DCS-Region des <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=de"> Audience Managers </a>, aus der die Aktivität stammt.</p> </td> 
+   <td colname="col3"> <p>Die <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS-Region </a>, aus der die Aktivität stammt.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Unter [Beispiele für Makros im HTTP-Format](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Eine Liste <span class="keyword"> Audience Managers </span> Benutzer-IDs. Sie können auch bestimmte Felder zurückgeben, die Folgendes enthalten: </p> 
+   <td colname="col3"> <p>Eine Liste <span class="keyword"> Audience Manager </span> Benutzer-IDs. Sie können auch bestimmte Felder zurückgeben, die Folgendes enthalten: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 

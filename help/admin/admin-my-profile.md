@@ -1,5 +1,5 @@
 ---
-description: Bearbeiten Sie die Details Ihres Audience Manager-Admin-Tool-Profils oder ändern Sie Ihr Kennwort.
+description: Bearbeiten Sie die Details Ihres Audience Manager Admin-Tool-Profils oder ändern Sie Ihr Kennwort.
 seo-description: Edit the details of your Audience Manager Admin tool profile or change your password.
 seo-title: My Profile
 title: Mein Profil
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Mein Profil {#my-profile}
 
-Bearbeiten Sie die Details Ihres Audience Manager-Admin-Tool-Profils oder ändern Sie Ihr Kennwort.
+Bearbeiten Sie die Details Ihres Audience Manager Admin-Tool-Profils oder ändern Sie Ihr Kennwort.
 
 <!-- c_my_profile.xml -->
 
 ## Profil bearbeiten {#edit-profile}
 
-Zeigen Sie Ihr Audience Manager-Admin-Tool-Profil an und bearbeiten Sie es, einschließlich Vor- und Nachname, Benutzername, E-Mail-Adresse, Telefonnummer, [!UICONTROL IMS ID], Benutzerrollen und Status.
+Zeigen Sie Ihr Audience Manager Admin-Tool-Profil an und bearbeiten Sie es, einschließlich Vor- und Nachname, Benutzername, E-Mail-Adresse, Telefonnummer, [!UICONTROL IMS ID], Benutzerrollen und Status.
 
 <!-- t_edit_profile.xml -->
 
@@ -40,21 +40,21 @@ Zeigen Sie Ihr Audience Manager-Admin-Tool-Profil an und bearbeiten Sie es, eins
       * **[!UICONTROL CREATE_USERS]:** Ermöglicht Benutzern das Erstellen neuer Benutzer mithilfe eines [!DNL API].
       * **[!UICONTROL DELETE_USERS]:** Ermöglicht Benutzern das Löschen vorhandener Benutzer mithilfe eines [!DNL API].
       * **[!UICONTROL EDIT_USERS]:** Ermöglicht Benutzern das Bearbeiten vorhandener Benutzer mithilfe eines [!DNL API].
-      * **[!UICONTROL VIEW_USERS]:** Ermöglicht Benutzenden, andere Audience Manager in Ihrer Benutzerkonfiguration mithilfe eines [!DNL API] Aufrufs anzuzeigen.
-      * Audience Manager **[!UICONTROL CREATE_PARTNERS]:** Ermöglicht Benutzenden die Erstellung von Benutzerpartnern mithilfe eines [!DNL API]-Aufrufs.
+      * **[!UICONTROL VIEW_USERS]:** Ermöglicht Benutzern, andere Benutzer in Ihrer Audience Manager-Konfiguration mithilfe eines [!DNL API] Aufrufs anzuzeigen.
+      * **[!UICONTROL CREATE_PARTNERS]:** Ermöglicht Benutzenden die Erstellung von Audience Manager-Partnern mithilfe eines [!DNL API].
       * **[!UICONTROL DELETE_PARTNERS]:** Ermöglicht Benutzenden das Löschen von Audience Manager-Partnern mithilfe eines [!DNL API].
       * **[!UICONTROL EDIT_PARTNERS]:** Ermöglicht Benutzenden die Bearbeitung von Audience Manager-Partnern mithilfe eines [!DNL API].
       * **[!UICONTROL VIEW_PARNTERS]:** Ermöglicht Benutzenden die Anzeige von Audience Manager-Partnern mithilfe eines [!DNL API].
    * **[!UICONTROL Status]:** Wählen Sie den gewünschten Status aus:
-      * **[!UICONTROL Active]:** Gibt an, dass dieser Benutzer ein aktiver Audience Manager ist.
+      * **[!UICONTROL Active]:** Gibt an, dass dieser Benutzer ein aktiver Audience Manager-Benutzer ist.
       * **[!UICONTROL Deactivated]:** Gibt an, dass dieser Benutzer in der Zielgruppenverwaltung deaktiviert ist.
-      * **[!UICONTROL Expired]:** Gibt an, dass das Konto dieses Benutzers im Audience Manager abgelaufen ist.
-      * **[!UICONTROL Locked Out]:** Gibt an, dass das Konto dieses Benutzers im Audience Manager gesperrt ist.
+      * **[!UICONTROL Expired]:** Gibt an, dass das Konto dieses Benutzers in Audience Manager abgelaufen ist.
+      * **[!UICONTROL Locked Out]:** Gibt an, dass das Konto dieses Benutzers in Audience Manager gesperrt ist.
 3. Klicken Sie auf **[!UICONTROL Submit]**.
 
 ## Passwort ändern {#change-password}
 
-Ändern Sie das Kennwort Ihres Audience Manager-Admin-Tools.
+Ändern Sie Ihr Kennwort für das Audience Manager Admin-Tool.
 
 <!-- t_change_password.xml -->
 

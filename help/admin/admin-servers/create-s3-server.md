@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie die Seite „Server“ im Serveradministrator-Tool, um einen neuen S3-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
+description: Verwenden Sie die Seite Server im Audience Manager Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
 seo-title: Create or Edit an S3 Server
 title: Erstellen oder Bearbeiten eines S3-Servers
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Erstellen oder Bearbeiten eines S3-Servers {#create-or-edit-an-s-server}
 
-Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um einen neuen [!DNL S3] zu erstellen oder einen vorhandenen Audience Manager zu bearbeiten.
+Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager Admin-Tool, um einen neuen [!DNL S3]-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um ein
 
    >[!NOTE]
    >
-   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=de) im *Audience Manager-Benutzerhandbuch*.
+   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 

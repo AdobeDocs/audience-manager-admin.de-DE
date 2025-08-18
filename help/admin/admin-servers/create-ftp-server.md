@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie die Serverseite im Serveradministrator-Tool, um einen neuen FTP-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
+description: Verwenden Sie die Seite Server im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
 seo-title: Create or Edit an FTP Server
 title: Erstellen oder Bearbeiten eines FTP-Servers
@@ -7,14 +7,14 @@ uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
 source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten eines FTP-Servers {#create-or-edit-an-ftp-server}
 
-Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um einen neuen FTP-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot; im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
@@ -26,14 +26,14 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um ein
 
    >[!NOTE]
    >
-   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=de) im *Audience Manager-Benutzerhandbuch*.
+   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 
    * **[!UICONTROL Type]:** Wählen Sie den gewünschten Verschlüsselungstyp aus: **[!UICONTROL SFTP]** oder **[!UICONTROL FTPs/TLS]**.
    * **[!UICONTROL Domain]:** Geben Sie die gewünschte Domain (den Host) für diesen Server an.
    * **[!UICONTROL Port]:** Geben Sie den gewünschten Port für diesen Server an. Der Standard-Port wird für jeden Verschlüsselungstyp angezeigt. Sie können bei Bedarf den Standard-Port ändern.
-   * **[!UICONTROL Remote Path]:** Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, platziert der Audience Manager die Dateien im Standardverzeichnis.
+   * **[!UICONTROL Remote Path]:** Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, platziert Audience Manager die Dateien im Standardverzeichnis.
    * **[!UICONTROL .tmp File Rename on Completion]:** Aktivieren Sie diese Option, um die `.tmp` nach Abschluss umzubenennen.
    * **[!UICONTROL Filename Suffix]:** Geben Sie den Text an, der zur Übertragung von Dateien angehängt werden soll.
    * **[!UICONTROL Moved to When Finished]:** Geben Sie den Pfad zu dem Speicherort an, an den die Übertragungsdatei nach Abschluss verschoben werden soll.
@@ -47,7 +47,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um ein
    >[!NOTE]
    >
    >Stellen Sie bei der Konfiguration der SSH-Schlüsselauthentifizierung sicher, dass Sie die öffentlichen und privaten Schlüssel nur im OpenSSH-Format generieren.
-   >1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
-   >1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
-   >1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
+   1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
+   1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
+   1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
 1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]**, wenn Sie einen vorhandenen Server bearbeiten.

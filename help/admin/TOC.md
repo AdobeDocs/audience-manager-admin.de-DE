@@ -7,7 +7,7 @@ user-guide-description: Mit dem Audience Manager Admin-Tool können Sie Firmen, 
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 28%
 # Audience Manager Admin-Handbuch {#admin-guide}
 
 + [Audience Manager Admin – Startseite](admin-home.md)
-+ [Beim Audience Manager-Admin anmelden](admin-login.md)
++ [Bei Audience Manager Admin anmelden](admin-login.md)
 + [Anfordern des funktionalen Administratorzugriffs](admin-access.md)
-+ Firmen {#companies}
++ Unternehmen{#companies}
    + [Unternehmen](companies/admin-companies-overview.md)
    + [Erstellen eines Unternehmensprofils](companies/admin-manage-company-profiles.md)
    + [Container verwalten](companies/admin-manage-containers.md)
@@ -30,27 +30,27 @@ ht-degree: 28%
    + [Verwalten von Firmenbenutzenden](companies/admin-manage-company-users.md)
    + [Ausgehende Daten nur nach aktiven Benutzern filtern](companies/outbound-active-user-filter.md)
    + [Verwalten des Onboarding-Zugriffs für Second-Party-Daten](companies/admin-manage-onboarding-access.md)
-+ Server {#servers}
++ Server{#servers}
    + [Server - Übersicht](admin-servers/admin-servers.md)
    + [Erstellen oder Bearbeiten eines FTP-Servers](admin-servers/create-ftp-server.md)
    + [Erstellen oder Bearbeiten eines HTTP-Servers](admin-servers/create-http-server.md)
    + [Erstellen oder Bearbeiten eines S3-Servers](admin-servers/create-s3-server.md)
    + [Kontoübergreifenden Amazon S3-Bucket-Zugriff autorisieren](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Löschen eines Servers](admin-servers/admin-delete-server.md)
-+ Berichterstellung {#reporting}
-   + [Berichterstellung  ](admin-reporting/admin-reporting-overview.md)
++ Berichterstellung{#reporting}
+   + [Berichterstellung](admin-reporting/admin-reporting-overview.md)
    + [Zuweisen eines Portalbenutzers zu Tableau-Benutzer](admin-reporting/admin-assign-tableau-user.md)
-+ Formate {#formats}
++ Formate{#formats}
    + [Formatübersicht](formats/formats.md)
-   + [Hadoop-Sequenzdateiübertragungen für ausgehende Dateien aktivieren](formats/enable-outbound-seq.md)
+   + [Hadoop Sequence-Dateiübertragungen für ausgehende Dateien aktivieren](formats/enable-outbound-seq.md)
    + [Dateiformatmakros](formats/file-formats.md)
    + [Beispiele für Dateiformat-Makros](formats/file-format-examples.md)
    + [HTTP-Formatmakros](formats/web-formats.md)
    + [Beispiele für HTTP-Formatmakros](formats/web-format-examples.md)
    + [Erstellen oder Bearbeiten eines Formats](formats/admin-create-format.md)
-+ OAuth2-Clients {#oath2-clients}
++ OAuth2-Clients{#oath2-clients}
    + [OAuth2-Clients](admin-oauth2/admin-oauth2-create-edit.md)
-   + [API-Anforderungen und Recommendations](admin-oauth2/aam-admin-api-requirements.md)
+   + [API-Anforderungen und -Empfehlungen](admin-oauth2/aam-admin-api-requirements.md)
 + [Prüfprotokollierung](admin-audit-logging.md)
 + [Mein Profil](admin-my-profile.md)
 + [Fehlerbehebung bei der Zieleinrichtung](admin-destination-troubleshooting.md)

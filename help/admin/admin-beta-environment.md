@@ -8,7 +8,7 @@ uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -24,9 +24,9 @@ Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. In de
 | Service | URL/Hostname | Schritte zur Bereitstellung |
 |--- |--- |--- |
 | S3 | | Siehe [Bereitstellen von Amazon S3-Buckets](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&colon;//dcs-beta.demdex.net/… | Keine zusätzlichen Schritte von unserer Seite erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
-| Benutzeroberfläche | https&colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
-| API | https&colon;//api-beta.demdex.com/… | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/… | Keine zusätzlichen Schritte von unserer Seite erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
+| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
+| API | https&amp;colon;//api-beta.demdex.com/… | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Die Produktions-Anmeldedaten sind für die Beta-Version gültig. |
 
 ## Amazon S3-Buckets bereitstellen {#provision-s3-buckets}
 
@@ -38,13 +38,13 @@ So stellen Sie [!DNL S3] Buckets für eingehende Daten bereit:
 
 1. Verwenden Sie die [**SKMS Request TechOps Help**](https://skms.adobe.com/)-Funktion.
 1. Navigieren Sie zu **[!UICONTROL Request TechOps Help]** in der linken Navigationsleiste.
-1. Geben Sie **[!UICONTROL Request Search]** Audience Manager in das Suchfeld ein.
+1. Geben Sie **[!UICONTROL Request Search]** in das Suchfeld Audience Manager ein.
 1. Scrollen Sie in den Suchergebnissen nach unten und klicken Sie auf **Audience Manager - S3 Inbound/Outbound Account Provisioning**.
 1. Füllen Sie die Felder im Bereitstellungsfenster aus und geben Sie **Feld „Sandbox** Umgebung“ **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
->Wir raten von der Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=de) aufgeführt.
+>Wir raten von der Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
 
 ## Zugreifen auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
@@ -54,7 +54,7 @@ So greifen Sie in der Beta-Umgebung auf die [!UICONTROL DCS] zu:
 
    Beispiel: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Stellen Sie sicher, dass Ihre Anfrage im Beta-[!UICONTROL DCS] verarbeitet wurde, indem Sie im [!UICONTROL DCS]-Antwortheader nach &quot;[!DNL sandbox]&quot; suchen.
+1. Stellen Sie sicher, dass Ihre Anfrage im Beta-[!UICONTROL DCS] verarbeitet wurde, indem Sie im [!DNL sandbox]-Antwortheader nach &quot;[!UICONTROL DCS]&quot; suchen.
 
    Beispiel:
 

@@ -1,5 +1,5 @@
 ---
-description: Verwenden Sie die Serverseite im Serveradmin-Tool, um einen neuen HTTP-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
+description: Verwenden Sie die Seite „Server“ im Audience Manager Admin-Tool, um einen neuen HTTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 seo-title: Create or Edit an HTTP Server
 title: Erstellen oder Bearbeiten eines HTTP-Servers
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Erstellen oder Bearbeiten eines HTTP-Servers {#create-or-edit-an-http-server}
 
-Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um einen neuen HTTP-Audience Manager zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot; im Audience Manager Admin-Tool, um einen neuen HTTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Serveradministrator-Tool, um ein
 
    >[!NOTE]
    >
-   >Wenn Sie die [OAuth 2.0-Authentifizierung für Echtzeit-Datenübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=de) für einen Partner aktivieren möchten, füllen Sie die Felder wie in der folgenden Tabelle aus. Die Felder *kursiv* müssen genau wie in der Tabelle ausgefüllt werden.
+   >Wenn Sie die [OAuth 2.0-Authentifizierung für Echtzeit-Datenübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) für einen Partner aktivieren möchten, füllen Sie die Felder wie in der folgenden Tabelle aus. Die Felder *kursiv* müssen genau wie in der Tabelle ausgefüllt werden.
 
    | Name | Wert |
    |---|---|

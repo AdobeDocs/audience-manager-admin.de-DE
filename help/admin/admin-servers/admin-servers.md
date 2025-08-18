@@ -1,5 +1,5 @@
 ---
-description: Auf der Seite Server können Sie eine Liste der Audience Manager in Ihrer Serverkonfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Sie über die entsprechenden Benutzerrollen verfügen.
+description: Auf der Seite Server können Sie eine Liste der Server in Ihrer Audience Manager-Konfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Sie über die entsprechenden Benutzerrollen verfügen.
 seo-description: Use the Servers page to view a list of servers in your Audience Manager configuration. You can edit or delete existing servers or create new servers, providing that you have the appropriate user roles assigned.
 seo-title: Servers Overview
 title: Server - Übersicht
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Server - Übersicht {#servers-overview}
 
-Audience Manager Auf der Seite &quot;[!UICONTROL Servers]&quot; können Sie eine Liste der Server in Ihrer Serverkonfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Sie über die entsprechenden Benutzerrollen verfügen.
+Auf der Seite &quot;[!UICONTROL Servers]&quot; können Sie eine Liste der Server in Ihrer Audience Manager-Konfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Sie über die entsprechenden Benutzerrollen verfügen.
 
 <!-- c_servers.xml -->
 
