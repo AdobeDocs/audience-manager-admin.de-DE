@@ -36,5 +36,5 @@ Anzeigen oder Bearbeiten von Containern und Zuordnungen für Datenanbieter von D
 
 1. (Bedingt) Wenn der Container für diesen Anbieter aktiviert ist, können Sie Container für diesen Datenanbieter auswählen, indem Sie die gewünschten Container aus der Liste Verfügbar in die ausgewählte Liste verschieben.
 
-   Sie können diese Aufgabe auch über die Seite &quot;[&quot; ](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
+   Sie können diese Aufgabe auch über die Seite &quot;[&quot; &#x200B;](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
 1. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie Änderungen vorgenommen haben.

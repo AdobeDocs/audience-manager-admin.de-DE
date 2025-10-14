@@ -22,7 +22,7 @@ Beispiele für die Verwendung von Makros zum Erstellen ausgehender [!DNL FTP]-Da
 
 ## Allgemeine Makros {#common-macros}
 
-Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
+Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -70,7 +70,7 @@ Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige 
 
 ## Header-Feldmakros {#header-field-macros}
 
-Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -89,7 +89,7 @@ Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Defini
 
 ## Datenzeilen-Makros {#data-row-macros}
 
-Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 

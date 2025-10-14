@@ -18,7 +18,7 @@ Melden Sie sich beim [!UICONTROL Identity & Access Management] Portal an, [!UICO
 
 <!-- request-functional-admin-access.xml -->
 
-1. Melden Sie sich beim Portal [Identitäts- und ](https://iam.corp.adobe.com)&quot; an.
+1. Melden Sie sich beim Portal [Identitäts- und &#x200B;](https://iam.corp.adobe.com)&quot; an.
 2. Navigieren Sie zu **[!UICONTROL Accounts]** > **[!UICONTROL Access Requests]**.
 3. Klicken Sie im Abschnitt [!UICONTROL Request Access] auf **[!UICONTROL Select an Access Request Type]**.
 4. Wählen Sie aus, ob Sie den Zugriff für sich selbst oder eine andere Person anfordern möchten. Wenn Sie den Zugriff für eine andere Person anfordern, geben Sie deren Adobe ID in das entsprechende Feld ein und klicken Sie auf **[!UICONTROL Find User]**.
