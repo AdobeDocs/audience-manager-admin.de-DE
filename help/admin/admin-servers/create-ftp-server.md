@@ -5,7 +5,7 @@ seo-title: Create or Edit an FTP Server
 title: Erstellen oder Bearbeiten eines FTP-Servers
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
+source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot; im Audience Manager Adm
 
    >[!NOTE]
    >
-   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=de) im *Audience Manager-Benutzerhandbuch*.
+   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien für Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Schnittstelle, mit der Daten jeder beliebigen Menge jederzeit und von jedem beliebigen Ort im Web gespeichert und abgerufen werden können. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 
@@ -44,10 +44,13 @@ Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot; im Audience Manager Adm
    >Denken Sie daran, unsere Egress-[!DNL FTP]-[!DNL IP] zu Ihrer Liste der zulässigen IPs hinzuzufügen: **54.204.116.43**.
 
 1. Für **[!UICONTROL SSH Key]** Authentifizierung:
+
    >[!NOTE]
    >
    >Stellen Sie bei der Konfiguration der SSH-Schlüsselauthentifizierung sicher, dass Sie die öffentlichen und privaten Schlüssel nur im OpenSSH-Format generieren.
-   >1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
-   >1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
-   >1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
+
+   1. Generieren Sie das Schlüsselpaar aus öffentlichem/privatem Schlüssel aus einem beliebigen [!DNL Linux] oder [!DNL Mac].
+   1. Geben Sie **Client den „öffentlichen Schlüssel**, damit er auf seinem [!DNL SFTP] aktualisiert wird. Sie müssen den gesamten Text aus dem öffentlichen Schlüssel auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
+   1. Aktualisieren Sie das Feld Benutzername mit dem vom Client bereitgestellten Feld und das Feld Schlüssel mit dem **privaten Schlüssel**.
+
 1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]**, wenn Sie einen vorhandenen Server bearbeiten.
