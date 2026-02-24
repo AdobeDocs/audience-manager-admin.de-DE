@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVIERT
 
-Dieses Repository wird nach <https://github.com/Adobe-Enterprise-Docs/audience-manager-admin.en> migriert.
+Dieses Repository wird nach <https://github.com/Adobe-Enterprise-Docs/audience-manager-admin.de-DE> migriert.
