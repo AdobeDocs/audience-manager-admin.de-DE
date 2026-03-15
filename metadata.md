@@ -5,13 +5,13 @@ feature-set: Audience Manager
 landing-page-name: audience-manager
 landing-page-breadcrumb-title: Audience Manager
 getting-started-title: Getting Started
-git-repo: https://github.com/AdobeDocs/audience-manager-admin.de-DE
+git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
 hide: true
-source-git-commit: dcbc5994cd9b9cce18e8f1f59f3be6794eacdb76
+source-git-commit: 015457f574638c3ba2cfc11f8780e5af6111d89a
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
@@ -27,5 +27,5 @@ Die Datei „metadata.md“ enthält Metadaten auf Repo-Ebene, die an die im Rep
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zu Hilfen für die ersten Schritte |
 | tutorials-url | Link zu Video-Tutorials - entweder Hilfs-Tutorials oder KT-Tutorials |
-| Mini-Inhaltsverzeichnisebenen | Bestimmt die Anzahl der Überschriftenebenen, die in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
+| Mini-Inhaltsverzeichnisebenen | Bestimmt die Anzahl der Überschriftenebenen, die in der rechten Leiste angezeigt werden. Der Standardwert ist 2 |
 | git-repo | Gibt den Speicherort des primären Repositorys für die interne Verwendung an |
