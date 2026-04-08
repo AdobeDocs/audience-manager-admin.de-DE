@@ -5,9 +5,11 @@ seo-title: File Format Macro Examples
 title: Beispiele für Dateiformat-Makros
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/G90HDd1wpf-fgftySBnc-JG-l-DMi7X-sPopemyXpGg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -22,7 +24,7 @@ Beispiele für die Verwendung von Makros zum Erstellen ausgehender [!DNL FTP]-Da
 
 ## Allgemeine Makros {#common-macros}
 
-Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
+Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -70,7 +72,7 @@ Diese Makros können in jedem Formularfeld verwendet werden. Eine vollständige 
 
 ## Header-Feldmakros {#header-field-macros}
 
-Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -89,7 +91,7 @@ Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B
 
 ## Datenzeilen-Makros {#data-row-macros}
 
-Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B; Definitionen finden Sie unter &#x200B;](../formats/file-formats.md)Dateiformatmakros“.
+Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [ Definitionen finden Sie unter ](../formats/file-formats.md)Dateiformatmakros“.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -111,11 +113,11 @@ Makros werden nur in Header-Feldern verwendet. Eine vollständige Liste [&#x200B
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>In diesem Beispiel wird ein Format erstellt, das entfernte Segmente in einem Server-zu-Server-Feed zurückgibt. </p> <p> 
      <code>
-       &lbrace;"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
-      "Data":&lbrack;&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+       {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
+      "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
       separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; 
-      &lt;REMOVED_SEGMENT_LIST:&lbrace;seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
-      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;&rbrace;;&nbsp;separator=","&gt;&rbrack;&rbrace; 
+      &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
+      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]} 
      </code> </p> </td> 
   </tr> 
   <tr> 

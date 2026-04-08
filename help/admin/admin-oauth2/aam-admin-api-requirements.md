@@ -5,9 +5,12 @@ seo-title: API Requirements and Recommendations
 title: API-Anforderungen und -Empfehlungen
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/mm5-TOwj8WckXoG4-E4wzuEF-1oBbxbBUvRLOoA--As
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: 350
 ht-degree: 0%
 
 ---
@@ -36,4 +39,4 @@ Es wird empfohlen, ein separates technisches Benutzerkonto für die Arbeit mit d
 * Identifizieren Sie, welcher Service die [!DNL API] aufruft (z. B. Aufrufe von einer Client-Anwendung, die unsere [!DNL API] verwenden, oder von Massenänderungen).
 * Ununterbrochener Zugriff auf die [!DNL API]s. Ein Konto, das an einen bestimmten Mitarbeiter gebunden ist, kann gelöscht werden, wenn er das Unternehmen verlässt. Dies verhindert, dass Ihre Kunden mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft, dieses Problem zu vermeiden.
 
-Nehmen wir an, Ihre Kunden möchten als Beispiel oder Anwendungsfall für diese Art von Konto viele Segmente gleichzeitig mit den [Tools für die Massenverwaltung“ &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=de). Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn die Kunden ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API] verwenden.
+Nehmen wir an, Ihre Kunden möchten als Beispiel oder Anwendungsfall für diese Art von Konto viele Segmente gleichzeitig mit den [Tools für die Massenverwaltung“ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches, [!DNL API] Benutzerkonto, das über die entsprechenden Anmeldeinformationen, den Schlüssel und das Geheimnis verfügt, um [!DNL API] Aufrufe durchzuführen. Dies ist auch nützlich, wenn die Kunden ihre eigenen Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API] verwenden.

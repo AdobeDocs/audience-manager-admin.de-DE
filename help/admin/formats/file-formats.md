@@ -5,9 +5,11 @@ seo-title: File Format Macros
 title: Dateiformatmakros
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -46,7 +48,7 @@ Diese Makros können in jedem Formularfeld verwendet werden. Beispiele finden Si
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PIDALIAS</code> </p> </td> 
-   <td colname="col2"> <p>Ein Alias für eine Bestell-/Ziel-ID. </p> <p>Der Wert für diesen Alias wird im <span class="wintitle"> für die </span>-Konto-ID für ein Ziel festgelegt (im <span class="wintitle"> "</span>-Grundeinstellungen„). </p> </td> 
+   <td colname="col2"> <p>Ein Alias für eine Bestell-/Ziel-ID. </p> <p>Der Wert für diesen Alias wird im </span> für die <span class="wintitle">-Konto-ID für ein Ziel festgelegt (im </span> "<span class="wintitle">-Grundeinstellungen„). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
@@ -105,7 +107,7 @@ Makros werden nur in Datenzeilen verwendet. Beispiele finden Sie unter [Beispiel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&rbrace;</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>}</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,7 +139,7 @@ Makros werden nur in Datenzeilen verwendet. Beispiele finden Sie unter [Beispiel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>&lbrace;</code> Zeichen ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine geschweifte Klammer <code>{</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
