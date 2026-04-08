@@ -57,7 +57,7 @@ Verwenden Sie die Seite &quot;[!UICONTROL Servers]&quot; im Audience Manager Adm
 
    >[!NOTE]
    >
-   >Wenn Sie die [OAuth 2.0-Authentifizierung für Echtzeit-Datenübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) für einen Partner aktivieren möchten, füllen Sie die Felder wie in der folgenden Tabelle aus. Die Felder *kursiv* müssen genau wie in der Tabelle ausgefüllt werden.
+   >Wenn Sie die [OAuth 2.0-Authentifizierung für Echtzeit-Datenübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=de) für einen Partner aktivieren möchten, füllen Sie die Felder wie in der folgenden Tabelle aus. Die Felder *kursiv* müssen genau wie in der Tabelle ausgefüllt werden.
 
    | Name | Wert |
    |---|---|

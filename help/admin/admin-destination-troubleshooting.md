@@ -84,7 +84,7 @@ Der ausgehende Prozess wird zweimal täglich ausgeführt und umfasst mehrere Pro
 
 ### Datei-Split-Größen zu groß
 
-Beim Ausgeben von Dateien an Ziele können Sie größere ausgehende Dateien in Datei-Chunks aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke 10 GB nicht überschreiten. Siehe auch [Name der ausgehenden Datendatei: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Beim Ausgeben von Dateien an Ziele können Sie größere ausgehende Dateien in Datei-Chunks aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke 10 GB nicht überschreiten. Siehe auch [Name der ausgehenden Datendatei: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=de).
 
 
 ## Einrichten Ihrer Ziele zum Exportieren von Experience Cloud-IDs, Kunden-IDs oder Audience Manager-IDs in ausgehende Datendateien {#set-up-destinations-export}
@@ -99,7 +99,7 @@ Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl dig
 >
 >Eine ausführliche Anleitung zum Erstellen von Zielen in der Admin-Benutzeroberfläche finden Sie im Artikel [Erstellen oder Bearbeiten von Unternehmenszielen](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Ihre Kunden möchten je nach Ziel verschiedene ID-Typen exportieren. Das folgende Konfigurationsdiagramm zeigt die Optionen, die Sie zum Exportieren von Profilinformationen zu verschiedenen ID-Typen auswählen sollten. Es wird empfohlen, auch auf den [ID-Index in Audience Manager&quot; &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Es gibt drei wichtige Einstellungen, die zu berücksichtigen sind: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Im Folgenden werden alle beschrieben.
+Ihre Kunden möchten je nach Ziel verschiedene ID-Typen exportieren. Das folgende Konfigurationsdiagramm zeigt die Optionen, die Sie zum Exportieren von Profilinformationen zu verschiedenen ID-Typen auswählen sollten. Es wird empfohlen, auch auf den [ID-Index in Audience Manager&quot; &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=de). Es gibt drei wichtige Einstellungen, die zu berücksichtigen sind: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Im Folgenden werden alle beschrieben.
 
 * [!UICONTROL User ID Key]. Gehen Sie im [!UICONTROL Admin UI] zu **[!UICONTROL Companies]**. Suchen Sie nach dem Unternehmen Ihres Kunden und klicken Sie darauf. Suchen Sie nach der Registerkarte **[!UICONTROL Destinations]** und drücken Sie **[!UICONTROL Add Destination]**. Wählen Sie im **[!UICONTROL Add Destination]**-Workflow die [!UICONTROL User ID Key] aus. Die [!UICONTROL User ID Key] filtert die eingehenden IDs aus der Zieldatenquelle und lässt nur die IDs zu.
 
