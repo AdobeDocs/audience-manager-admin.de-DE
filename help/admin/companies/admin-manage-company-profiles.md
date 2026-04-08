@@ -6,10 +6,16 @@ title: Erstellen eines Unternehmensprofils
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
 TQID: https://experienceleague.adobe.com/rQozfJrXiUu5746xTtJv-trs7Tuig4PD5HlR5jsrlzw
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 944
@@ -54,7 +60,7 @@ Auf der Seite [!UICONTROL Companies] im Audience Manager Admin-Tool können Sie 
    * **[!UICONTROL Targeting Partner]**: Geben Sie an, dass das Unternehmen als Zielgruppenbestimmungsplattform für Audience Manager-Kunden fungiert.
    * **[!UICONTROL Visitor ID Service]**: Geben Sie an, dass das Unternehmen für die Verwendung der [!UICONTROL Experience Cloud Visitor ID Service] aktiviert wurde.
 
-     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum Experience Cloud-Besucher-ID-Service [](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
+     Die [!UICONTROL Experience Cloud Visitor ID Service] bietet eine universelle Besucher-ID für alle Experience Cloud-Lösungen. Weitere Informationen finden Sie im Benutzerhandbuch zum Experience Cloud-Besucher-ID-Service [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
    * **[!UICONTROL Agency]**: Geben Sie an, dass die Firma über ein [!UICONTROL Agency] Konto verfügen soll.
 
