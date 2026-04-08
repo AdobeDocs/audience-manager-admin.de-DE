@@ -5,9 +5,19 @@ seo-title: Destination Setup Troubleshooting
 title: Fehlerbehebung bei der Zieleinrichtung
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -55,7 +65,7 @@ Weitere Informationen zum Einrichten von Formaten und Verwenden von Makros finde
          * Der Behältername sollte ohne Schrägstriche, Präfixe, Suffixe usw. aufgeführt werden. Wenn Sie die Adresse erhalten haben, [!DNL s3://your-bucket] Sie einfach [!DNL your-bucket] zu diesem Feld hinzufügen.
       * **[!UICONTROL Directory]**
          * Lassen Sie dieses Feld leer, es sei denn, Sie haben ein Unterverzeichnis angegeben, in dem die Daten abgelegt werden sollen. Wenn Sie die [!DNL s3://your-bucket/your-subdirectory] erhalten haben, geben Sie [!DNL your-bucket] in das Feld [!UICONTROL Bucket] ein und [!DNL your-subdirectory] sollten in das Feld [!UICONTROL Directory] eingefügt werden. Fügen Sie keine vorangehenden Schrägstriche hinzu.
-         * Wenn Sie mehrere Ordner entlang des Pfads verschieben müssen, sollten Sie nur Schrägstriche als Trennzeichen verwenden. Ein Speicherort von [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] wäre also im Feld [!DNL your-bucket] [!UICONTROL Bucket] und [!DNL your-subdirectory1/your-subdirectory2] in das Feld [!UICONTROL Directory] eingegeben worden.
+         * Wenn Sie mehrere Ordner entlang des Pfads verschieben müssen, sollten Sie nur Schrägstriche als Trennzeichen verwenden. Ein Speicherort von [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] wäre also im Feld [!UICONTROL Bucket] [!DNL your-bucket] und [!DNL your-subdirectory1/your-subdirectory2] in das Feld [!UICONTROL Directory] eingegeben worden.
       * **[!UICONTROL Access / Secret Keys]**
          * Wenn [!DNL TechOps] einen Bucket erstellt und einem Berater Zugriffs-/Geheimschlüssel bereitstellt, sind diese Anmeldeinformationen in der Regel `READ-ONLY` Anmeldeinformationen, die an den Client übergeben werden sollen. Diese Anmeldeinformationen sollten nicht in die [!UICONTROL Access / Secret Key] Felder eingegeben werden, da dies dazu führt, dass die Übertragung fehlschlägt (da diese Anmeldeinformationen schreibgeschützt und nicht schreibbar sind). Wenn [!DNL TechOps] einen Bucket erstellt und Anmeldeinformationen bereitstellt, sollte der Berater auch ein Adobe-Schlüsselpaar anfordern (NICHT AN DEN CLIENT ZU GEBEN), das das Schreiben von Dateien in diesen Bucket ermöglicht. Dieser Schlüssel sollte diesen Feldern hinzugefügt werden.
 
@@ -63,14 +73,14 @@ Weitere Informationen zum Einrichten von Formaten und Verwenden von Makros finde
    * **[!UICONTROL Domain]**
       * Geben Sie keine Präfixinformationen für [!DNL HTTP] Einträge ein. Wenn Sie eine [!DNL https://superduper.com] erhalten haben, geben Sie [!DNL https://superduper.com] in dieses Feld ein.
       * **[!UICONTROL URL Prefix]**
-         * Lassen Sie beim Hinzufügen eines [!DNL URL]-Präfixes den vorangehenden Schrägstrich deaktiviert. Die Adresse [!DNL https://hello.com/r/x/y/z] sollte in das Feld [!DNL https://hello.com] eingegeben [!UICONTROL Domain] und hier in das Feld [!DNL r/x/y/z] eingegeben [!UICONTROL URL Prefix].
+         * Lassen Sie beim Hinzufügen eines [!DNL URL]-Präfixes den vorangehenden Schrägstrich deaktiviert. Die Adresse [!DNL https://hello.com/r/x/y/z] sollte in das Feld [!UICONTROL Domain] eingegeben [!DNL https://hello.com] und hier in das Feld [!UICONTROL URL Prefix] eingegeben [!DNL r/x/y/z].
          * Wenn kein [!UICONTROL URL Prefix] benötigt wird, lassen Sie dieses Feld leer.
       * **[!UICONTROL Authentication - SSH Key]**
          * Geben Sie in dieses Feld den vollständigen Wert des `SSH PRIVATE`-Schlüssels ein, einschließlich Kopf- und Fußzeilen sowie Zeilenumbrüchen, um eine genaue Verschlüsselung/Schlüsselspeicherung sicherzustellen.
 
 ### Nicht genügend Zeit für die ausgehende Generierung
 
-Der ausgehende Prozess wird zweimal täglich ausgeführt. Vor dem Pushen einer Datei an ihr endgültiges Ziel müssen mehrere Prozesse (ausgehende, veröffentlichende, an externe Speicherorte usw.) ausgeführt werden. Eine gute Faustregel ist, dass ein Ziel mindestens 24 Stunden vor dem vermutlich an einen externen Speicherort gepushten Daten vollständig konfiguriert sein sollte.
+Der ausgehende Prozess wird zweimal täglich ausgeführt und umfasst mehrere Prozesse (ausgehende, veröffentlichende, an externe Standorte pushen usw.) Muss ausgeführt werden, bevor eine Datei an ihr endgültiges Ziel gepusht wird. Eine gute Faustregel ist, dass ein Ziel mindestens 24 Stunden vor dem vermutlich an einen externen Speicherort gepushten Daten vollständig konfiguriert sein sollte.
 
 ### Datei-Split-Größen zu groß
 
