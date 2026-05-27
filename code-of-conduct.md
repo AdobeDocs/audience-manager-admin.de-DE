@@ -1,7 +1,7 @@
 ---
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Ausrichtung.
 ## Unsere Standards
 
 Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen
-Einschließen:
+zählen:
 
 * Freundliche und inklusive Sprache
 * Respektvoller Umgang mit unterschiedlichen Sichtweisen und Erfahrungen
