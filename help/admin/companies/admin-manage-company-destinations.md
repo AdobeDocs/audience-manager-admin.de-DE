@@ -6,13 +6,11 @@ title: Verwalten von Unternehmenszielen
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -23,7 +21,7 @@ Erstellen, Bearbeiten und Löschen von Audience Manager-Zielen.
 
 <!-- t_company_destinations.xml -->
 
-Detaillierte Informationen finden Sie unter [Ziele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=de) im *Audience Manager-Benutzerhandbuch*.
+Detaillierte Informationen finden Sie unter [Ziele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) im *Audience Manager-Benutzerhandbuch*.
 
 ## Erstellen oder Bearbeiten von Unternehmenszielen {#create-edit-company-destinations}
 
@@ -48,13 +46,13 @@ Füllen Sie die Felder im **[!UICONTROL Basic Settings]** aus.
 * **[!UICONTROL Name]:** (Erforderlich) Geben Sie den Namen dieses Ziels an.
 * **[!UICONTROL Description]:** Geben Sie beschreibende Informationen zu diesem Ziel an.
 * **[!UICONTROL Type]:** (Erforderlich) Wählen Sie den gewünschten Zieltyp aus:
-   * **[!UICONTROL Bulk ID]**: Synchronisieren von IDs zwischen verschiedenen Plattformen
-   * **[!UICONTROL Bulk Trait]**: Senden Sie Eigenschafteninformationen stapelweise an verschiedene Plattformen.
-   * **[!UICONTROL Bulk Segment]**: Senden Sie Segmentinformationen stapelweise an verschiedene Plattformen.
-   * **[!UICONTROL S2S]**: Verwenden Sie Server-zu-Server-Ziele, um Echtzeit- und Batch-Daten an verschiedene Plattformen zu senden.
+  * **[!UICONTROL Bulk ID]**: Synchronisieren von IDs zwischen verschiedenen Plattformen
+  * **[!UICONTROL Bulk Trait]**: Senden Sie Eigenschafteninformationen stapelweise an verschiedene Plattformen.
+  * **[!UICONTROL Bulk Segment]**: Senden Sie Segmentinformationen stapelweise an verschiedene Plattformen.
+  * **[!UICONTROL S2S]**: Verwenden Sie Server-zu-Server-Ziele, um Echtzeit- und Batch-Daten an verschiedene Plattformen zu senden.
 * **[!UICONTROL Auto-Fill Destination Mapping]:** (nur [!UICONTROL S2S]) Option auswählen:
-   * **[!UICONTROL Segment ID]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit der [!DNL Audience Manager] Segment-ID ausgefüllt.
-   * **[!UICONTROL Integration Code Value]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit dem [!DNL Audience Manager] Segment-Integrations-Code gefüllt.
+  * **[!UICONTROL Segment ID]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit der [!DNL Audience Manager] Segment-ID ausgefüllt.
+  * **[!UICONTROL Integration Code Value]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit dem [!DNL Audience Manager] Segment-Integrations-Code gefüllt.
 * **[!UICONTROL User ID Key]:** (Erforderlich) Wählen Sie den gewünschten Benutzer-ID-Schlüssel für dieses Ziel aus der Dropdown-Liste aus.
 
 Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-IDs bestimmt, die in der Datei ausgehen sollen.
@@ -63,7 +61,7 @@ Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-
 >
 >Für den [!UICONTROL Bulk ID] Zieltyp können Sie weder den [!DNL Audience Manager]-[!UICONTROL User ID] noch die [!DNL Adobe Experience Cloud]-ID verwenden.
 
-Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[&#x200B; das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=de).
+Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[ das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:** (Erforderlich) Wählen Sie die gewünschte Datenquelle für dieses Ziel aus der Dropdown-Liste aus. Diese Einstellung ermöglicht die Kennzeichnung ausgehender Daten, was die Aufnahme in separate Client-seitige Systeme ermöglicht.
 * **[!UICONTROL Foreign Account ID]:** Geben Sie die ID des ausländischen Kontos für dieses Ziel an. Dies ist der Identifikationswert im System des Empfängers für diese ausgehenden Daten.
@@ -85,9 +83,9 @@ Wenn Sie ein [!UICONTROL S2S] Ziel erstellen, füllen Sie die folgenden Felder a
 Für [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] oder [!UICONTROL Bulk Segment] Ziele füllen Sie die folgenden Felder aus:
 
 * **[!UICONTROL Protocol]**: (Erforderlich) Wählen Sie das gewünschte Protokoll für dieses Ziel aus der Dropdown-Liste aus:
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (Erforderlich) Wählen Sie den gewünschten Server für dieses Ziel aus der Dropdown-Liste aus.
 * **[!UICONTROL Format]**: (Erforderlich) Wählen Sie das gewünschte Format für dieses Ziel aus der Dropdown-Liste aus: [!DNL HTTP] oder Dateityp, je nach dem oben ausgewählten Protokoll.
 * **[!UICONTROL Sync Type]**: (Erforderlich) Wählen Sie den gewünschten Synchronisierungstyp für dieses Ziel aus. Dies gibt die Anzahl der Benutzeraktivitäten an, die Kunden in die ausgehenden Bestellungen einbeziehen möchten. Wählen Sie **[!UICONTROL Customer]** aus, wenn Kunden nur an der Analyse von Segmentqualifikationen anhand ihrer Eigenschaften interessiert sind. Wählen Sie **[!UICONTROL Platform]** aus, wenn Segmentqualifikationen aus Offsite-Aktivitäten für alle [!DNL Audience Manager] Kunden einbezogen werden sollen.
