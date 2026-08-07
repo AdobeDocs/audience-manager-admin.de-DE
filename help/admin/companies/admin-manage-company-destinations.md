@@ -12,7 +12,7 @@ feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Füllen Sie die Felder im **[!UICONTROL Basic Settings]** aus.
 * **[!UICONTROL Name]:** (Erforderlich) Geben Sie den Namen dieses Ziels an.
 * **[!UICONTROL Description]:** Geben Sie beschreibende Informationen zu diesem Ziel an.
 * **[!UICONTROL Type]:** (Erforderlich) Wählen Sie den gewünschten Zieltyp aus:
-   * **[!UICONTROL Bulk ID]**: Synchronisieren von IDs zwischen verschiedenen Plattformen
-   * **[!UICONTROL Bulk Trait]**: Senden Sie Eigenschafteninformationen stapelweise an verschiedene Plattformen.
-   * **[!UICONTROL Bulk Segment]**: Senden Sie Segmentinformationen stapelweise an verschiedene Plattformen.
-   * **[!UICONTROL S2S]**: Verwenden Sie Server-zu-Server-Ziele, um Echtzeit- und Batch-Daten an verschiedene Plattformen zu senden.
+  * **[!UICONTROL Bulk ID]**: Synchronisieren von IDs zwischen verschiedenen Plattformen
+  * **[!UICONTROL Bulk Trait]**: Senden Sie Eigenschafteninformationen stapelweise an verschiedene Plattformen.
+  * **[!UICONTROL Bulk Segment]**: Senden Sie Segmentinformationen stapelweise an verschiedene Plattformen.
+  * **[!UICONTROL S2S]**: Verwenden Sie Server-zu-Server-Ziele, um Echtzeit- und Batch-Daten an verschiedene Plattformen zu senden.
 * **[!UICONTROL Auto-Fill Destination Mapping]:** (nur [!UICONTROL S2S]) Option auswählen:
-   * **[!UICONTROL Segment ID]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit der [!DNL Audience Manager] Segment-ID ausgefüllt.
-   * **[!UICONTROL Integration Code Value]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit dem [!DNL Audience Manager] Segment-Integrations-Code gefüllt.
+  * **[!UICONTROL Segment ID]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit der [!DNL Audience Manager] Segment-ID ausgefüllt.
+  * **[!UICONTROL Integration Code Value]:** Wenn Sie diese Einstellung auswählen, wird die Zielwert-Zuordnung mit dem [!DNL Audience Manager] Segment-Integrations-Code gefüllt.
 * **[!UICONTROL User ID Key]:** (Erforderlich) Wählen Sie den gewünschten Benutzer-ID-Schlüssel für dieses Ziel aus der Dropdown-Liste aus.
 
 Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-IDs bestimmt, die in der Datei ausgehen sollen.
@@ -85,9 +85,9 @@ Wenn Sie ein [!UICONTROL S2S] Ziel erstellen, füllen Sie die folgenden Felder a
 Für [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] oder [!UICONTROL Bulk Segment] Ziele füllen Sie die folgenden Felder aus:
 
 * **[!UICONTROL Protocol]**: (Erforderlich) Wählen Sie das gewünschte Protokoll für dieses Ziel aus der Dropdown-Liste aus:
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (Erforderlich) Wählen Sie den gewünschten Server für dieses Ziel aus der Dropdown-Liste aus.
 * **[!UICONTROL Format]**: (Erforderlich) Wählen Sie das gewünschte Format für dieses Ziel aus der Dropdown-Liste aus: [!DNL HTTP] oder Dateityp, je nach dem oben ausgewählten Protokoll.
 * **[!UICONTROL Sync Type]**: (Erforderlich) Wählen Sie den gewünschten Synchronisierungstyp für dieses Ziel aus. Dies gibt die Anzahl der Benutzeraktivitäten an, die Kunden in die ausgehenden Bestellungen einbeziehen möchten. Wählen Sie **[!UICONTROL Customer]** aus, wenn Kunden nur an der Analyse von Segmentqualifikationen anhand ihrer Eigenschaften interessiert sind. Wählen Sie **[!UICONTROL Platform]** aus, wenn Segmentqualifikationen aus Offsite-Aktivitäten für alle [!DNL Audience Manager] Kunden einbezogen werden sollen.
