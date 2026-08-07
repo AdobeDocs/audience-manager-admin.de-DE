@@ -6,8 +6,10 @@ title: Verwalten von Unternehmenszielen
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 1105
@@ -61,7 +63,7 @@ Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-
 >
 >Für den [!UICONTROL Bulk ID] Zieltyp können Sie weder den [!DNL Audience Manager]-[!UICONTROL User ID] noch die [!DNL Adobe Experience Cloud]-ID verwenden.
 
-Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[ das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Wenn Ihre Datenquellen-ID ([!UICONTROL DPID]) nicht in der Dropdown-Liste angezeigt wird, müssen Sie auf der Seite „Einstellungen für Data Source[&#x200B; das Kontrollkästchen **[!UICONTROL Outbound]** auf der Ebene der Datenquelle &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:** (Erforderlich) Wählen Sie die gewünschte Datenquelle für dieses Ziel aus der Dropdown-Liste aus. Diese Einstellung ermöglicht die Kennzeichnung ausgehender Daten, was die Aufnahme in separate Client-seitige Systeme ermöglicht.
 * **[!UICONTROL Foreign Account ID]:** Geben Sie die ID des ausländischen Kontos für dieses Ziel an. Dies ist der Identifikationswert im System des Empfängers für diese ausgehenden Daten.
